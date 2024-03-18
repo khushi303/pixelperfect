@@ -2,3 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: #060606 !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.ff_poppins {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.ff_almarai {
+  font-family: "Almarai", sans-serif !important;
+}
+
+@font-face {
+  font-family: 'mazzardregular';
+  src: url('/public/assets/fonts/MazzardL-Black.otf');
+}
+
+/* .ff_mazzardregular {
+  font-family: 'mazzardregular';
+} */
+
+.btn_hover {
+  padding: 0.9px;
+  backdrop-filter: blur(39.5px);
+  background: transparent;
+  border-radius: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+.btn_hover::after {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  padding: inherit;
+  background: linear-gradient(100.56deg, #4D4D4D 38.41%, #4D4D4D 110.46%);
+  /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(218, 43, 85, 0.2) 100%); */
+  inset: 0;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: exclude;
+  mask-composite: exclude !important;
+  pointer-events: none;
+  border-radius: 30px;
+}
