@@ -42,7 +42,7 @@ export default function Discover() {
                 <div className="flex flex-row flex-wrap justify-between">
                     {DiscoverArr.map((e) => {
                         return (
-                            <div className="w-[49%] mb-6">
+                            <div className="md:w-[49%] w-full mb-6">
                                 <div className="p-[32px] border border-solid border-[#2C2C2C] rounded-[12px]">
                                     <h2 className="text-[24px] ff_mazzardbold font-bold leading-[100%] text-white">{e.heading}</h2>
                                     <p className="text-[16px] font-normal leading-[150%] text-white opacity-80 mt-2">{e.paragraph}</p>
