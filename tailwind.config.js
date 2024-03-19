@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "bgheader": "./assets/images/png/bgheader.png",
+        "bgheader": "url(../../public/assets/images/png/bgheader.png)",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
@@ -19,6 +19,3 @@ module.exports = {
   },
   plugins: [],
 }
-
-
-

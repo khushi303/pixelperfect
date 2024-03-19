@@ -496,7 +496,7 @@ export const Chain = () => {
 
 export const DisPrevBtn = () => {
     return (
-        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="lg:w-[34px] lg:h-[34px]" width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="-0.441858" y="0.441858" width="33.1163" height="33.1163" rx="16.5581" transform="matrix(-1 0 0 1 33.1163 0)" stroke="url(#paint0_linear_457_3076)" stroke-opacity="0.7" stroke-width="0.883716" />
             <path d="M19.8112 12.4651L14.8112 17.4651L19.8112 22.4651" stroke="white" stroke-width="1.76743" stroke-linecap="round" stroke-linejoin="round" />
             <defs>
@@ -526,6 +526,40 @@ export const DisNextBtn = () => {
                     <stop offset="0.0440276" stop-color="#00BCD4" />
                     <stop offset="1" stop-color="#3145EC" />
                 </linearGradient>
+            </defs>
+        </svg>
+    )
+}
+
+export const Navicon = () => {
+    return (
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" stroke="url(#paint0_linear_808_7488)" />
+            <path d="M6 7.78947C6 7.35263 6.335 7 6.75 7H14.75C15.165 7 15.5 7.35263 15.5 7.78947C15.5 8.22632 15.165 8.57895 14.75 8.57895H10.75H6.75C6.335 8.57895 6 8.22632 6 7.78947ZM14.75 15.4211H6.75C6.335 15.4211 6 15.7737 6 16.2105C6 16.6474 6.335 17 6.75 17H14.75C15.165 17 15.5 16.6474 15.5 16.2105C15.5 15.7737 15.165 15.4211 14.75 15.4211ZM17.25 11.2105H9.25C8.835 11.2105 8.5 11.5632 8.5 12C8.5 12.4368 8.835 12.7895 9.25 12.7895H17.25C17.665 12.7895 18 12.4368 18 12C18 11.5632 17.665 11.2105 17.25 11.2105Z" fill="url(#paint1_linear_808_7488)" />
+            <defs>
+                <linearGradient id="paint0_linear_808_7488" x1="-7.90698" y1="-8.16456" x2="35.6945" y2="-12.988" gradientUnits="userSpaceOnUse">
+                    <stop offset="0.0440276" stop-color="#00BCD4" />
+                    <stop offset="1" stop-color="#3145EC" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_808_7488" x1="2.04651" y1="3.5981" x2="23.7319" y2="0.719347" gradientUnits="userSpaceOnUse">
+                    <stop offset="0.0440276" stop-color="#00BCD4" />
+                    <stop offset="1" stop-color="#3145EC" />
+                </linearGradient>
+            </defs>
+        </svg>
+    )
+}
+
+export const CallSvg = () => {
+    return (
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_3054_5)">
+                <path d="M0 12C0 18.617 5.383 24 12 24C18.617 24 24 18.617 24 12C24 5.383 18.617 0 12 0C5.383 0 0 5.383 0 12ZM5 8.89C5 8.064 5.298 7.236 5.928 6.607L7.535 5L10.699 8.164L8.628 10.235C9.657 12.796 11.4 14.469 13.765 15.372L15.836 13.301L19 16.465L17.393 18.072C16.764 18.702 15.936 19 15.11 19C10.87 19 5 13.456 5 8.89Z" fill="white" />
+            </g>
+            <defs>
+                <clipPath id="clip0_3054_5">
+                    <rect width="24" height="24" fill="white" />
+                </clipPath>
             </defs>
         </svg>
     )

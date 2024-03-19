@@ -50,7 +50,7 @@ body {
 }
 
 .loading-box {
-  --radius: 2px;
+  --radius: 1px;
   position: relative;
   transition: all .3s linear;
 }
@@ -80,7 +80,7 @@ body {
 }
 
 .loading-box1 {
-  --radius: 2px;
+  --radius: 1px;
   position: relative;
   transition: all .3s linear;
 }
@@ -119,3 +119,58 @@ body {
   animation: rotate-border 5s linear infinite;
   z-index: -1;
 }
+
+.loading_header {
+  --radius: 1px;
+  position: relative;
+  transition: all .3s linear;
+}
+
+.loading_header::after {
+  --rotation: 0deg;
+  content: '';
+  border-radius: 40px !important;
+  width: calc(100% + 2 * var(--radius));
+  height: calc(100% + 2 * var(--radius));
+  position: absolute;
+  top: calc(-1 * var(--radius));
+  left: calc(-1 * var(--radius));
+  background: conic-gradient(from var(--rotation), #4d4d4d33, #4d4d4d29, #3145EC, #00BCD4);
+  animation: rotate-border 5s linear infinite;
+  z-index: -1;
+}
+
+.ball {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  transition: top 0.1s, left 0.1s;
+  /* Optional: Add smooth transition */
+}
+
+.blur_box_border {
+  /* padding: 30px; */
+  backdrop-filter: blur(39.5px);
+  /* background: #0000001A; */
+  border-radius: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+.blur_box_border::after {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  padding: inherit;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(218, 43, 85, 0.2) 100%);
+  inset: 0;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+  border-radius: 30px;
+}
+
+/* .blur_bo */

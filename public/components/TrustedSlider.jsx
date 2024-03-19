@@ -48,7 +48,9 @@ export default function Trusted() {
 
     };
     return (
-        <>
+        <div className="mt-[]">
+            <div>
+            </div>
             <div className="container mx-auto max-w-[1164px] px-3">
                 <h2 className="ff_mazzardbold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] text-center mb-3">Trusted by</h2>
                 <div className="lg:py-[30px] md:py-[20px] py-[15px]">
@@ -86,6 +88,7 @@ export default function Trusted() {
                     </Slider>
                 </div>
             </div>
-        </>
+          
+        </div>
     )
 }
