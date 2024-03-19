@@ -5,6 +5,8 @@ import { useState } from 'react';
 import { CommonBtn } from './CommonBtn'
 import headercat from '../assets/images/png/headercat.png'
 import middlepyramid from '../assets/images/png/middlepyramid.png'
+import leftpyramid from '../assets/images/png/leftpyramid.png'
+import rightpyramid from '../assets/images/png/rightpyramid.png'
 import { Navicon } from './Icons'
 
 export default function Header() {
@@ -57,10 +59,16 @@ export default function Header() {
                 <div className='sm:absolute xl:right-[7%] lg:right-[5%] sm:right-[4%] md:bottom-0 sm:bottom-[-8%] z-[5] sm:flex hidden items-center justify-center md:mt-0 mt-[37px]'>
                     <Image src={headercat} alt='headercat' width={208} height={237} className='xl:w-[337px] xl:h-[387px] lg:w-[280px] lg:h-[300px] md:w-[255px] md:h-[256px]' />
                 </div>
-                <div className='absolute left-0 right-0 bottom-0 flex items-center justify-center'>
+                <div className='absolute left-0 right-0 bottom-0 flex items-center justify-center z-[2]'>
                     <Image src={middlepyramid} alt='middlepyramid' width={780} className='xl:w-[945px]' />
                 </div>
-                <div className='bg-gradient-to-t from-[#060606] to-[rgba(6,6,6,0)] absolute right-0 left-0 bottom-0 lg:h-[127px] md:h-[216px] h-[129px]'></div>
+                <div className='bg-gradient-to-t from-[#060606] to-[rgba(6,6,6,0)] absolute right-0 left-0 bottom-0 lg:h-[127px] md:h-[216px] h-[129px] z-[3]'></div>
+                <div className='absolute left-0 bottom-[2%] z-[1]'>
+                    <Image src={leftpyramid} alt='middlepyramid' width={300} className='xl:w-[485px] lg:w-[400px]' />
+                </div>
+                <div className='absolute right-0 bottom-[2%] z-[1]'>
+                    <Image src={rightpyramid} alt='middlepyramid' width={300} className='xl:w-[505px] lg:w-[450px]' />
+                </div>
             </div>
             <div className=' sm:hidden flex items-center justify-end pt-4'>
                 <Image src={headercat} alt='headercat' width={208} height={237} />
@@ -69,4 +77,3 @@ export default function Header() {
     )
 }
 
-// background: linear-gradient(180deg,  0%,  100%);
