@@ -1,12 +1,13 @@
+"use client"
 import Image from 'next/image'
 import logo from '../assets/images/png/logo.png';
 import { useState } from 'react';
 
 
 export default function Header() {
-    const [nav, setNav] = useState(false)
+    const [nav, setNav] = useState(true)
     return (
-        <>
+        <div className='bg-bgheader'>
             <div className='bg-gradient-to-b from-[#060606] to-[rgba(0,0,0,0)]'>
                 <div className="container mx-auto max-w-[1164px] px-3">
                     <div className="flex items-center justify-between py-[26px]">
@@ -28,6 +29,6 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

@@ -34,12 +34,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+
                         </div>
                         <div className={openTab === 2 ? "block" : "hidden"} id="link2">
                             <div className='flex items-center justify-center gap-4'>
@@ -49,12 +44,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta1</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+                          
                         </div>
                         <div className={openTab === 3 ? "block" : "hidden"} id="link3">
                             <div className='flex items-center justify-center gap-4'>
@@ -64,12 +54,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+                           
                         </div>
                         <div className={openTab === 4 ? "block" : "hidden"} id="link4">
                             <div className='flex items-center justify-center gap-4'>
@@ -79,12 +64,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+                           
                         </div>
                         <div className={openTab === 5 ? "block" : "hidden"} id="link5">
                             <div className='flex items-center justify-center gap-4'>
@@ -94,12 +74,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+                           
                         </div>
                         <div className={openTab === 6 ? "block" : "hidden"} id="link6">
                             <div className='flex items-center justify-center gap-4'>
@@ -109,12 +84,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+                           
                         </div>
                         <div className={openTab === 7 ? "block" : "hidden"} id="link7">
                             <div className='flex items-center justify-center gap-4'>
@@ -124,12 +94,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+                           
                         </div>
                         <div className={openTab === 8 ? "block" : "hidden"} id="link8">
                             <div className='flex items-center justify-center gap-4'>
@@ -139,12 +104,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+                          
                         </div>
                         <div className={openTab === 9 ? "block" : "hidden"} id="link9">
                             <div className='flex items-center justify-center gap-4'>
@@ -154,12 +114,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+                           
                         </div>
                         <div className={openTab === 10 ? "block" : "hidden"} id="link10">
                             <div className='flex items-center justify-center gap-4'>
@@ -169,12 +124,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+                            
                         </div>
                         <div className={openTab === 11 ? "block" : "hidden"} id="link11">
                             <div className='flex items-center justify-center gap-4'>
@@ -184,12 +134,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta12</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+                           
                         </div>
                         <div className={openTab === 12 ? "block" : "hidden"} id="link12">
                             <div className='flex items-center justify-center gap-4'>
@@ -199,12 +144,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta13</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+                           
                         </div>
                         <div className={openTab === 13 ? "block" : "hidden"} id="link13">
                             <div className='flex items-center justify-center gap-4'>
@@ -214,12 +154,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta14</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
+                           
                         </div>
                         <div className={openTab === 14 ? "block" : "hidden"} id="link14">
                             <div className='flex items-center justify-center gap-4'>
@@ -229,21 +164,21 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta15</p>
                                 </div>
                             </div>
-                            <div className='flex justify-center'>
-                                <span className='mr-[10px]'><UpCommaSvg /></span>
-                                <p className='max-w-[692px] ff_mazzardregular text-[16px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
-                                    Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
-                                <span className='flex items-end justify-end ml-[13px]'><DownCommaSvg /></span>
-                            </div>
                         </div>
+                    </div>
+                    <div className='flex justify-center'>
+                        <span className='md:mr-[10px]'><UpCommaSvg /></span>
+                        <p className='lg:max-w-[692px] ff_mazzardregular lg:text-[16px] text-[14px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
+                            Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>
+                        <span className='flex items-end justify-end md:ml-[13px]'><DownCommaSvg /></span>
                     </div>
                     <div className='mt-[13px] flex justify-between'>
                         <ul
                             className="flex flex-col gap-[72px] pt-[58px] w-[12%]"
                             role="tablist"
                         >
-                            <li className='relative'>
-                                <a className={`${openTab === 1 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"}`}
+                            <li className='relative flex items-center justify-center'>
+                                <a className={`${openTab === 1 ? "" : ""} transition-all ease-linear duration-300`}
                                     onClick={e => {
                                         e.preventDefault();
                                         setOpenTab(1);
@@ -255,7 +190,7 @@ export default function Customer() {
                                     <Image src={img1} alt='img1' width={50} height={50} className=' border border-solid border-white rounded-[50%]' />
                                 </a>
                             </li>
-                            <li className='relative'>
+                            <li className='relative flex items-center justify-center'>
                                 <a className={`${openTab === 2 ? "" : ""}`}
                                     onClick={e => {
                                         e.preventDefault();
@@ -270,8 +205,8 @@ export default function Customer() {
                             </li>
                         </ul>
                         <ul className='flex flex-col gap-[72px] w-[12%]'>
-                            <li className='relative'>
-                                <a className={`${openTab === 3 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"} text-[15px] font-semibold leading-normal transition-all duration-300 ease-linear`}
+                            <li className='relative flex items-center justify-center'>
+                                <a className={`${openTab === 3 ? "" : ""}`}
                                     onClick={e => {
                                         e.preventDefault();
                                         setOpenTab(3);
@@ -283,7 +218,7 @@ export default function Customer() {
                                     <Image src={img3} alt='img3' width={50} height={50} className=' border border-solid border-white rounded-[50%]' />
                                 </a>
                             </li>
-                            <li className='relative'>
+                            <li className='relative flex items-center justify-center'>
                                 <a className={`${openTab === 4 ? "" : ""}`}
                                     onClick={e => {
                                         e.preventDefault();
@@ -298,8 +233,8 @@ export default function Customer() {
                             </li>
                         </ul>
                         <ul className='flex flex-col gap-[72px] w-[12%] pt-[58px]'>
-                            <li className='relative'>
-                                <a className={`${openTab === 5 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"} text-[15px] font-semibold leading-normal transition-all duration-300 ease-linear`}
+                            <li className='relative flex items-center justify-center'>
+                                <a className={`${openTab === 5 ? "" : ""}`}
                                     onClick={e => {
                                         e.preventDefault();
                                         setOpenTab(5);
@@ -311,7 +246,7 @@ export default function Customer() {
                                     <Image src={img5} alt='img5' width={50} height={50} className=' border border-solid border-white rounded-[50%]' />
                                 </a>
                             </li>
-                            <li className='pb-1 relative'>
+                            <li className='pb-1 relative flex items-center justify-center'>
                                 <a className={`${openTab === 6 ? "" : ""}`}
                                     onClick={e => {
                                         e.preventDefault();
@@ -326,8 +261,8 @@ export default function Customer() {
                             </li>
                         </ul>
                         <ul className='flex flex-col gap-[72px] w-[12%]'>
-                            <li className='relative'>
-                                <a className={`${openTab === 7 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"} text-[15px] font-semibold leading-normal transition-all duration-300 ease-linear`}
+                            <li className='relative flex items-center justify-center'>
+                                <a className={`${openTab === 7 ? "" : ""}`}
                                     onClick={e => {
                                         e.preventDefault();
                                         setOpenTab(7);
@@ -339,7 +274,7 @@ export default function Customer() {
                                     <Image src={img7} alt='img7' width={50} height={50} className=' border border-solid border-white rounded-[50%]' />
                                 </a>
                             </li>
-                            <li className='relative'>
+                            <li className='relative flex items-center justify-center'>
                                 <a className={`${openTab === 8 ? "" : ""}`}
                                     onClick={e => {
                                         e.preventDefault();
@@ -354,7 +289,7 @@ export default function Customer() {
                             </li>
                         </ul>
                         <ul className='flex flex-col gap-[72px] w-[12%] pt-[58px]'>
-                            <li className='relative'>
+                            <li className='relative flex items-center justify-center'>
                                 <a className={`${openTab === 9 ? "" : ""}`}
                                     onClick={e => {
                                         e.preventDefault();
@@ -367,7 +302,7 @@ export default function Customer() {
                                     <Image src={img9} alt='img9' width={50} height={50} className=' border border-solid border-white rounded-[50%]' />
                                 </a>
                             </li>
-                            <li className='pb-1 relative'>
+                            <li className='pb-1 relative flex items-center justify-center'>
                                 <a className={`${openTab === 10 ? "" : ""}`}
                                     onClick={e => {
                                         e.preventDefault();
@@ -382,8 +317,8 @@ export default function Customer() {
                             </li>
                         </ul>
                         <ul className='flex flex-col gap-[72px] w-[12%]'>
-                            <li className='relative'>
-                                <a className={`${openTab === 11 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"} text-[15px] font-semibold leading-normal transition-all duration-300 ease-linear`}
+                            <li className='relative flex items-center justify-center'>
+                                <a className={`${openTab === 11 ? "" : ""}`}
                                     onClick={e => {
                                         e.preventDefault();
                                         setOpenTab(11);
@@ -395,7 +330,7 @@ export default function Customer() {
                                     <Image src={img11} alt='img11' width={50} height={50} className=' border border-solid border-white rounded-[50%]' />
                                 </a>
                             </li>
-                            <li className='relative'>
+                            <li className='relative flex items-center justify-center'>
                                 <a className={`${openTab === 12 ? "" : ""}`}
                                     onClick={e => {
                                         e.preventDefault();
@@ -410,7 +345,7 @@ export default function Customer() {
                             </li>
                         </ul>
                         <ul className='flex flex-col gap-[72px] w-[12%] pt-[58px]'>
-                            <li className='relative'>
+                            <li className='relative flex items-center justify-center'>
                                 <a className={`${openTab === 13 ? "" : ""} `}
                                     onClick={e => {
                                         e.preventDefault();
@@ -423,7 +358,7 @@ export default function Customer() {
                                     <Image src={img13} alt='img13' width={50} height={50} className=' border border-solid border-white rounded-[50%]' />
                                 </a>
                             </li>
-                            <li className='pb-1 relative'>
+                            <li className='pb-1 relative flex items-center justify-center'>
                                 <a className={`${openTab === 14 ? "" : ""}`}
                                     onClick={e => {
                                         e.preventDefault();
