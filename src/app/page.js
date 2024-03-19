@@ -24,7 +24,7 @@ export default function Home() {
         {/* <Header /> */}
         {/* <Trusted /> */}
         <Services ServiveHeading="Our Services" Para1="Elevate your digital presence with our secure solutions. 24/7 protection ensures your" Para2="online assets are safe and your reputation intact." />
-        {/* <Discover /> */}
+        <Discover />
         <Customer />
       </main>
     </>
