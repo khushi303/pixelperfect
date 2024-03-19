@@ -50,7 +50,7 @@ export default function Trusted() {
     };
     return (
         <div className="lg:mt-0 mt-12">
-            <div className="flex items-center justify-end pr-9 relative z-10">
+            <div className="flex items-center justify-end pr-9 relative z-10 mb-6">
                 <button className="bg-gradient-to-r from-[#00BCD4] to-[#3145EC] loading_header py-[16px] px-[32px] text-[16px] font-medium text-white rounded-[40px] flex gap-2">Book a call <CallSvg /></button>
             </div>
             <div className="container mx-auto max-w-[1164px] px-3">
