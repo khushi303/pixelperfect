@@ -3,9 +3,16 @@ import Head from "next/head";
 import "./globals.css";
 // import Trusted from "../../public/components/TrustedSlider";
 import Services from "../../public/components/Services";
+import Discover from "../../public/components/Discover";
+import Customer from "../../public/components/Customer";
+// import dynamic from 'next/dynamic';
 
+// const ParticleCanvas = dynamic(() => import('../components/ParticleCanvas'), {
+//   ssr: false
+// });
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -17,6 +24,8 @@ export default function Home() {
         {/* <Header /> */}
         {/* <Trusted /> */}
         <Services ServiveHeading="Our Services" Para1="Elevate your digital presence with our secure solutions. 24/7 protection ensures your" Para2="online assets are safe and your reputation intact." />
+        <Discover />
+        <Customer />
       </main>
     </>
   );
