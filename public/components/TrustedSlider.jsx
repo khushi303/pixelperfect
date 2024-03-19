@@ -9,6 +9,7 @@ import slideimg2 from '../assets/images/png/slideimg2.png'
 import slideimg3 from '../assets/images/png/slideimg3.png'
 import slideimg4 from '../assets/images/png/slideimg4.png'
 import slideimg5 from '../assets/images/png/slideimg5.png'
+import { CallSvg } from './Icons'
 
 
 export default function Trusted() {
@@ -49,7 +50,8 @@ export default function Trusted() {
     };
     return (
         <div className="mt-[]">
-            <div>
+            <div className="flex items-center justify-end pr-9">
+                <button className="bg-gradient-to-r from-[#00BCD4] to-[#3145EC] loading_header py-[16px] px-[32px] text-[16px] font-medium text-white rounded-[40px] flex gap-2">Book a call <CallSvg /></button>
             </div>
             <div className="container mx-auto max-w-[1164px] px-3">
                 <h2 className="ff_mazzardbold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] text-center mb-3">Trusted by</h2>
@@ -88,7 +90,7 @@ export default function Trusted() {
                     </Slider>
                 </div>
             </div>
-          
+
         </div>
     )
 }
