@@ -60,8 +60,11 @@ export default function Footer() {
             <div className='py-4 border-t-[0.5px] border-solid border-[#ffffff66] mt-[16px] relative z-10'>
                 <p className='lg:text-[16px] sm:text-[14px] text-[12px] ff_mazzardregular font-normal text-white opacity-80 text-center'>Copyright ©Pixel Perfect | All Rights reserved 2024</p>
             </div>
-            <div className='absolute bottom-0 left-0 right-0 flex items-center justify-center '>
-                <Image src={footerellipse} alt='footerellipse' className='max-w-[1018px] lg:h-[469px] h-[200px] w-full loading_header1' />
+            <div className='absolute bottom-[-50%] left-0 right-0 flex items-center justify-center'>
+                <div className='loading_header1 inline-flex'>
+                    {/* <Image src={footerellipse} alt='footerellipse' className='max-w-[1018px] lg:h-[469px] h-[200px] w-full ' /> */}
+                    <div className='w-[1010px] h-[1000px] bg-[#060606] rounded-tl-[50%] rounded-tr-[50%]'></div>
+                </div>
             </div>
         </div>
     )

@@ -183,8 +183,8 @@ body {
 .loading_header1::after {
   --rotation: 0deg;
   content: '';
-  border-top-left-radius: 100% !important;
-  border-top-right-radius: 100% !important;
+  border-top-left-radius: 60% !important;
+  border-top-right-radius: 60% !important;
   width: calc(100% + 2 * var(--radius));
   height: calc(100% + 2 * var(--radius));
   position: absolute;
