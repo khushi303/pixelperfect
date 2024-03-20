@@ -92,9 +92,9 @@ export default function Discover() {
                                         </div>
 
                                     </div>
-                                    <div className='loading_discover rounded-[12px] mt-[24px] z-[1] bg-[#060606]'>
-                                        <div className='lg:px-[24px] lg:pb-[33px] lg:pt-[24px] md:p-[20px] p-[12px]  relative  rounded-[12px]'>
-                                            <div className="bg-gradient-to-t from-[rgba(0,188,212,0.04)] to-[rgba(49,69,236,0.04)]">
+                                    <div className='loading_discover rounded-[12px] mt-[24px] z-[1] '>
+                                        <div className=' bg-[#060606] relative  rounded-[12px]'>
+                                            <div className="lg:px-[24px] lg:pb-[33px] lg:pt-[24px] md:p-[20px] p-[12px] bg-gradient-to-t from-[rgba(0,188,212,0.04)] to-[rgba(49,69,236,0.04)]">
                                                 <Slider ref={e.slide} {...settings} className="md:h-[100px] lg:h-[100%]">
                                                     <div className="lg:px-[10px] md:px-2 px-[6px]">
                                                         <div>
@@ -122,7 +122,7 @@ export default function Discover() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="bg-gradient-to-b group-hover:opacity-100 opacity-0  transition-all ease-linear duration-300 from-[#00BCD4] to-[#3145EC] left-[5%] right-[5%] h-[24px] absolute bottom-[-3%] blur-[60px] z-50"></div>
+                                    <div className="bg-gradient-to-b group-hover:opacity-100 opacity-0 transition-all ease-linear duration-300 from-[#00BCD4] to-[#3145EC] left-[5%] right-[5%] h-[24px] absolute bottom-[-3%] blur-[60px] z-50"></div>
                                 </div>
                             </div >
                         )
