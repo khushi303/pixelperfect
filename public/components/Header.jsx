@@ -9,6 +9,7 @@ import leftpyramid from '../assets/images/png/leftpyramid.png'
 import rightpyramid from '../assets/images/png/rightpyramid.png'
 import { Navicon } from './Icons'
 import Link from 'next/link';
+// import ParticlesP5 from './Particlejs';
 
 export default function Header(props) {
     const [nav, setNav] = useState(true)
@@ -25,8 +26,9 @@ export default function Header(props) {
 
     return (
         <div>
-            <div className='bg-bgheader bg-cover bg-center bg-no-repeat xl:h-[768px] lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col relative'>
-                <div className='bg-gradient-to-b from-[#060606] to-[rgba(0,0,0,0)]'>
+            <div className='bg-bgheader bg-cover bg-center bg-no-repeat xl:h-[768px] lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col '>
+                <div className='bg-gradient-to-b from-[#060606] to-[rgba(0,0,0,0)] relative'>
+                    {/* <div className='absolute inset-0'><ParticlesP5 /></div> */}
                     <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
                         <div className="flex items-center justify-between py-[26px]">
                             <a href="">

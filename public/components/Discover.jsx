@@ -67,8 +67,8 @@ export default function Discover() {
                 <div className="flex flex-row flex-wrap gap-6 justify-between">
                     {DiscoverArr.map((e) => {
                         return (
-                            <div className="lg:w-[48.5%] md:w-[48%] w-full">
-                                <div className="lg:p-[32px] md:p-[20px] p-[16px] border border-solid border-[#2C2C2C] rounded-[12px] loading-box bg-[#060606]">
+                            <div className="lg:w-[48.5%] md:w-[48%] w-full p-[2px] overflow-hidden">
+                                <div className="lg:p-[32px] md:p-[20px] p-[16px] border border-solid border-[#2C2C2C] rounded-[12px] loading-box bg-[#060606] hover:bg-gradient-to-t from-[rgba(0,188,212,0.04)] to-[rgba(49,69,236,0.04)]">
                                     <h2 className="lg:text-[24px] sm:text-[16px] text-[14px] ff_mazzardbold font-bold leading-[100%] text-white">{e.heading}</h2>
                                     <p className="lg:text-[16px] text-[12px] font-normal leading-[150%] text-white opacity-80 mt-2">{e.paragraph}</p>
                                     <div className="flex gap-4 ">
@@ -92,30 +92,37 @@ export default function Discover() {
                                         </div>
 
                                     </div>
-                                    <div className='loading_discover bg-[#060606] rounded-[12px] mt-[24px]'>
-                                        <div className='lg:px-[24px] lg:pb-[33px] lg:pt-[24px] md:p-[20px] p-[12px] bg-gradient-to-t from-[rgba(0,188,212,0.04)] to-[rgba(49,69,236,0.04)]'>
-                                            <Slider ref={e.slide} {...settings} className="">
-                                                <div className="lg:px-[10px] md:px-2 px-[6px]">
-                                                    <Image src={e.img1} alt="discardimg1" width={216} height={188} className="w-full rounded-[6.94px]" />
-                                                </div>
-                                                <div className="lg:px-[10px] md:px-2 px-[6px]">
-                                                    <Image src={e.img2} alt="discardimg1" width={216} height={188} className="w-full rounded-[6.94px]" />
-                                                </div>
-                                            </Slider>
-                                            <div className="mt-[24px] flex items-center justify-between">
-                                                <div className="p-[0.88px] bg-gradient-to-r from-[#00BCD4] to-[#3145EC] inline-flex rounded-[88.37px] ">
-                                                    <div className="py-[9px] px-[12px] rounded-[88.37px] bg-[#060606] gap-[5px] flex flex-row items-center">
-                                                        <span><Chain /></span>
-                                                        <p className="lg:text-[16px] text-[12px] ff_mazzardregular font-normal leading-[150%] text-[#FFFFFF80] ">www.futuretech.io</p>
+                                    <div className='loading_discover  rounded-[12px] mt-[24px] z-[1]'>
+                                        <div className='lg:px-[24px] lg:pb-[33px] lg:pt-[24px] md:p-[20px] p-[12px]  relative bg-[#060606] rounded-[12px]'>
+                                            <div className="bg-gradient-to-t from-[rgba(0,188,212,0.04)] to-[rgba(49,69,236,0.04)]">
+                                                <Slider ref={e.slide} {...settings} className="md:h-[100px] lg:h-[100%]">
+                                                    <div className="lg:px-[10px] md:px-2 px-[6px]">
+                                                        <div>
+                                                            <Image src={e.img1} alt="discardimg1" className="w-full rounded-[6.94px]" />
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div className="gap-2 flex">
-                                                    <button onClick={() => e.slide?.current?.slickPrev()}> <DisPrevBtn /></button>
-                                                    <button onClick={() => e.slide?.current?.slickNext()}> <DisNextBtn /></button>
+                                                    <div className="lg:px-[10px] md:px-2 px-[6px]">
+                                                        <div>
+                                                            <Image src={e.img2} alt="discardimg1" className="w-full rounded-[6.94px]" />
+                                                        </div>
+                                                    </div>
+                                                </Slider>
+                                                <div className="mt-[24px] flex items-center justify-between">
+                                                    <div className="p-[0.88px] bg-gradient-to-r from-[#00BCD4] to-[#3145EC] inline-flex rounded-[88.37px] ">
+                                                        <div className="py-[9px] px-[12px] rounded-[88.37px] bg-[#060606] gap-[5px] flex flex-row items-center">
+                                                            <span><Chain /></span>
+                                                            <p className="lg:text-[16px] text-[12px] ff_mazzardregular font-normal leading-[150%] text-[#FFFFFF80] ">www.futuretech.io</p>
+                                                        </div>
+                                                    </div>
+                                                    <div className="gap-2 flex">
+                                                        <button onClick={() => e.slide?.current?.slickPrev()}> <DisPrevBtn /></button>
+                                                        <button onClick={() => e.slide?.current?.slickNext()}> <DisNextBtn /></button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div className="bg-gradient-to-br from-[#00BCD4] to-[#3145EC] left-[5%] right-[5%] h-[24px] absolute bottom-[-5%] blur-[35px] z-50"></div>
                                 </div>
                             </div >
                         )
