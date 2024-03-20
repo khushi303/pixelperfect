@@ -15,7 +15,7 @@ import discardimg7 from "../assets/images/png/discardimg4.png"
 import discardimg8 from "../assets/images/png/discardimg42.png"
 import { CommonBtn } from './CommonBtn'
 
-export default function Discover() {
+export default function DiscoverPort() {
     const slider = useRef(null);
     const slider1 = useRef(null);
     const slider2 = useRef(null);

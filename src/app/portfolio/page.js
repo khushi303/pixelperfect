@@ -4,7 +4,7 @@ import "../globals.css";
 import Footer from '../../../public/components/Footer'
 import React, { useState, useEffect } from 'react';
 import Header from "../../../public/components/Header";
-import Discover from "../../../public/components/Discover";
+import DiscoverPort from "../../../public/components/DiscoverPort";
 
 export default function about() {
     const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -29,7 +29,7 @@ export default function about() {
             </Head>
             <main className="overflow-hidden">
                 <Header headname="Our Portfolio" para1="Diverse portfolio spanning industries, optimized for growth and" para2="stability, curated for long-term success and investor satisfaction." />
-                <Discover />
+                <DiscoverPort />
                 <Footer />
             </main>
         </>
