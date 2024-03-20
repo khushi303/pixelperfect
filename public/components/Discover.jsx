@@ -100,7 +100,7 @@ export default function Discover() {
                         )
                     })}
                 </div>
-                <div className="flex items-center justify-center mt-4">
+                <div className="flex items-center justify-center mt-10">
                     <CommonBtn btnname="View all projects" />
                 </div>
             </div >
