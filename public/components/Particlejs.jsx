@@ -5,6 +5,8 @@ import { useP5 } from "react-p5";
 const ParticlesP5 = () => {
     const canvasRef = useRef(null);
     const particlesCount = useParticlesCount();
+    const [_window, set_window] = useState(null)
+    set_window(window)
 
     useEffect(() => {
         if (window.p5) {
