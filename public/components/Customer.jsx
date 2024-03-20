@@ -21,7 +21,7 @@ export default function Customer() {
     const [openTab, setOpenTab] = useState(1)
     return (
         <>
-            <div className="container mx-auto max-w-[1164px] px-3">
+            <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
                 <h2 className="ff_mazzardbold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] text-center mb-3">Our Smiling Customers</h2>
                 <p className='ff_mazzardregular lg:text-[16px] sm:text-[14px] text-[12px] font-normal leading-[150%] text-white opacity-80 text-center mt-[12px] mb-[60px]'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac<span className='md:block'>sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc. </span></p>
                 <div>

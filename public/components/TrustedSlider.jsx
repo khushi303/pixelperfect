@@ -50,46 +50,48 @@ export default function Trusted() {
     };
     return (
         <div className="lg:mt-0 mt-12">
-            <div className="flex items-center justify-end pr-9 relative z-10 mb-6">
-                <button className="bg-gradient-to-r from-[#00BCD4] to-[#3145EC] loading_header py-[16px] px-[32px] text-[16px] font-medium text-white rounded-[40px] flex gap-2">Book a call <CallSvg /></button>
-            </div>
-            
-            <div className="container mx-auto max-w-[1164px] px-3">
+
+            <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
+                <div className="flex items-center justify-end pr-9 z-10 mb-6">
+                    <button className="bg-gradient-to-r fixed right-0 from-[#00BCD4] to-[#3145EC] loading_header py-[16px] px-[32px] text-[16px] font-medium text-white rounded-[40px] flex gap-2">Book a call <CallSvg /></button>
+                </div>
+
                 <h2 className="ff_mazzardbold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] text-center mb-3">Trusted by</h2>
                 <div className="lg:py-[30px] md:py-[20px] py-[15px]">
                     <Slider {...settings} className="">
-                        <div className="lg:px-[10px] md:px-2 px-[6px]">
+                        <div className="lg:px-[10px] md:px-2 px-[6px] cursor-pointer">
                             <div className="bg-[#00BCD40D] border border-solid border-[#00BCD41A] rounded-[4px] lg:h-[100px] md:h-[64px] h-[50px] flex items-center justify-center">
                                 <Image src={slideimg1} alt="slideimg1" className="w-full lg:max-w-[182px] md:max-w-[117px] max-w-[92px]" />
                             </div>
                         </div>
-                        <div className="lg:px-[10px] md:px-2 px-[6px]">
+                        <div className="lg:px-[10px] md:px-2 px-[6px] cursor-pointer">
                             <div className="flex items-center justify-center bg-[#00BCD40D] border border-solid border-[#00BCD41A] rounded-[4px] lg:h-[100px] md:h-[64px] h-[50px]">
                                 <Image src={slideimg2} alt="slideimg2" className="w-full lg:max-w-[169px] md:max-w-[109px] max-w-[85px]" />
                             </div>
                         </div>
-                        <div className="lg:px-[10px] md:px-2 px-[6px]">
+                        <div className="lg:px-[10px] md:px-2 px-[6px] cursor-pointer">
                             <div className=" flex items-center justify-center bg-[#00BCD40D] border border-solid border-[#00BCD41A] rounded-[4px] lg:h-[100px] md:h-[64px] h-[50px]">
                                 <Image src={slideimg3} alt="slideimg3" className="w-full lg:max-w-[185px] md:max-w-[119px] max-w-[94px]" />
                             </div>
                         </div>
-                        <div className="lg:px-[10px] md:px-2 px-[6px]">
+                        <div className="lg:px-[10px] md:px-2 px-[6px] cursor-pointer">
                             <div className="flex items-center justify-center bg-[#00BCD40D] border border-solid border-[#00BCD41A] rounded-[4px] lg:h-[100px] md:h-[64px] h-[50px]">
                                 <Image src={slideimg4} alt="slideimg4" className="w-full lg:max-w-[120px] md:max-w-[78px] max-w-[50px]" />
                             </div>
                         </div>
-                        <div className="lg:px-[10px] md:px-2 px-[6px]">
+                        <div className="lg:px-[10px] md:px-2 px-[6px] cursor-pointer">
                             <div className="bg-[#00BCD40D] flex items-center justify-center border border-solid border-[#00BCD41A] rounded-[4px] lg:h-[100px] md:h-[64px] h-[50px]">
                                 <Image src={slideimg5} alt="slideimg4" className="w-full lg:max-w-[180px] md:max-w-[116px] max-w-[94px]" />
                             </div>
                         </div>
-                        <div className="lg:px-[10px] md:px-2 px-[6px]">
+                        <div className="lg:px-[10px] md:px-2 px-[6px] cursor-pointer">
                             <div className="bg-[#00BCD40D] flex items-center justify-center border border-solid border-[#00BCD41A] rounded-[4px] lg:h-[100px] md:h-[64px] h-[50px]">
                                 <Image src={slideimg4} alt="slideimg4" className="w-full lg:max-w-[120px] md:max-w-[78px] max-w-[50px]" />
                             </div>
                         </div>
                     </Slider>
                 </div>
+
             </div>
 
         </div>

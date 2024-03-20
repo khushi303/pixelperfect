@@ -50,7 +50,7 @@ body {
 }
 
 .loading-box {
-  --radius: 1px;
+  --radius: 2px;
   position: relative;
   transition: all .3s linear;
 }
@@ -65,7 +65,7 @@ body {
   top: calc(-1 * var(--radius));
   left: calc(-1 * var(--radius));
   background: conic-gradient(from var(--rotation), #4d4d4d33, #4d4d4d29, #3145EC, #00BCD4);
-  animation: rotate-border 5s linear infinite;
+  animation: rotate-border 4s ease-in-out infinite;
   z-index: -1;
 }
 
@@ -95,7 +95,7 @@ body {
   top: calc(-1 * var(--radius));
   left: calc(-1 * var(--radius));
   background: conic-gradient(from var(--rotation), #4d4d4d33, #4d4d4d29, #3145EC, #00BCD4);
-  animation: rotate-border 5s linear infinite;
+  animation: rotate-border 4s linear infinite;
   z-index: -1;
 }
 
@@ -116,7 +116,7 @@ body {
   top: calc(-1 * var(--radius));
   left: calc(-1 * var(--radius));
   background: conic-gradient(from var(--rotation), #4d4d4d33, #4d4d4d29, #3145EC, #00BCD4);
-  animation: rotate-border 5s linear infinite;
+  animation: rotate-border 4s linear infinite;
   z-index: -1;
 }
 
@@ -136,7 +136,7 @@ body {
   top: calc(-1 * var(--radius));
   left: calc(-1 * var(--radius));
   background: conic-gradient(from var(--rotation), #4d4d4d33, #4d4d4d29, #3145EC, #00BCD4);
-  animation: rotate-border 5s linear infinite;
+  animation: rotate-border 4s linear infinite;
   z-index: -1;
 }
 
@@ -191,6 +191,6 @@ body {
   top: calc(-1 * var(--radius));
   left: calc(-1 * var(--radius));
   background: conic-gradient(from var(--rotation), #4d4d4d33, #4d4d4d29, #3145EC, #00BCD4);
-  animation: rotate-border 5s linear infinite;
+  animation: rotate-border 4s linear infinite;
   z-index: -1;
 }
