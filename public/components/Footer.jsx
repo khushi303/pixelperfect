@@ -3,7 +3,6 @@ import blackcat from '../assets/images/png/headercat.png'
 import Image from 'next/image'
 import footerlogo from '../assets/images/png/footerlogo.png'
 import { Tweeter, Camera, Instagram, Linkdin, Phoneicon, Mail } from './Icons'
-// import footerellipse from '../assets/images/png/footerellipse.png';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -60,12 +59,16 @@ export default function Footer() {
             <div className='py-4 border-t-[0.5px] border-solid border-[#ffffff66] mt-[16px] relative z-10'>
                 <p className='lg:text-[16px] sm:text-[14px] text-[12px] ff_mazzardregular font-normal text-white opacity-80 text-center'>Copyright ©Pixel Perfect | All Rights reserved 2024</p>
             </div>
-            <div className='absolute bottom-[-50%] left-0 right-0 flex items-center justify-center'>
+            <div className='absolute bottom-[-50%] left-0 right-0 flex items-center justify-center z-[2]'>
                 <div className='loading_header1 inline-flex'>
                     {/* <Image src={footerellipse} alt='footerellipse' className='max-w-[1018px] lg:h-[469px] h-[200px] w-full ' /> */}
                     <div className='lg:w-[1010px] w-[786px] h-[840px] lg:h-[1000px] bg-[#060606] rounded-tl-[50%] rounded-tr-[50%]'></div>
                 </div>
             </div>
+            <div className='bg-gradient-to-b from-[rgba(0,0,0,0.48)] to-[#000000] blur-[30px] absolute right-0 left-0 bottom-0 lg:h-[340px] md:h-[216px] h-[129px] z-[3]'></div>
         </div>
     )
 }
+
+
+// background: linear-gradient(360deg, # -8.68%, rgba(0, 0, 0, 0) 82.75%);

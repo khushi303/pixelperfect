@@ -3,8 +3,7 @@ import Head from "next/head";
 import "../globals.css";
 import Trusted from '../../../public/components/TrustedSlider';
 import Services from "../../../public/components/Services";
-import Discover from "../../../public/components/Discover";
-import Customer from "../../../public/components/Customer";
+import ShowCase from '../../../public/components/ShowCase';
 import Footer from '../../../public/components/Footer'
 import React, { useState, useEffect } from 'react';
 import Header from "../../../public/components/Header";
@@ -33,9 +32,8 @@ export default function about() {
             <main className="overflow-hidden">
                 <Header />
                 <Trusted />
-                <Services ServiveHeading="Our Services" Para1="Elevate your digital presence with our secure solutions. 24/7 protection ensures your" Para2="online assets are safe and your reputation intact." />
-                <Discover />
-                <Customer />
+                <Services ServiveHeading="Why choose us" Para1="Sit convallis eget tellus non fringilla risus. Mauris nisi ultrices scelerisque" Para2="pharetra. Et lorem amet eu. ." />
+                <ShowCase />
                 <Footer />
             </main>
         </>
