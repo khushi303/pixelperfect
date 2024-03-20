@@ -174,3 +174,23 @@ body {
 }
 
 /* .blur_bo */
+.loading_header1 {
+  --radius: 1px;
+  position: relative;
+  transition: all .3s linear;
+}
+
+.loading_header1::after {
+  --rotation: 0deg;
+  content: '';
+  border-top-left-radius: 100% !important;
+  border-top-right-radius: 100% !important;
+  width: calc(100% + 2 * var(--radius));
+  height: calc(100% + 2 * var(--radius));
+  position: absolute;
+  top: calc(-1 * var(--radius));
+  left: calc(-1 * var(--radius));
+  background: conic-gradient(from var(--rotation), #4d4d4d33, #4d4d4d29, #3145EC, #00BCD4);
+  animation: rotate-border 5s linear infinite;
+  z-index: -1;
+}

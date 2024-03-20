@@ -53,6 +53,7 @@ export default function Trusted() {
             <div className="flex items-center justify-end pr-9 relative z-10 mb-6">
                 <button className="bg-gradient-to-r from-[#00BCD4] to-[#3145EC] loading_header py-[16px] px-[32px] text-[16px] font-medium text-white rounded-[40px] flex gap-2">Book a call <CallSvg /></button>
             </div>
+            
             <div className="container mx-auto max-w-[1164px] px-3">
                 <h2 className="ff_mazzardbold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] text-center mb-3">Trusted by</h2>
                 <div className="lg:py-[30px] md:py-[20px] py-[15px]">

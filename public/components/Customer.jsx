@@ -44,7 +44,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta1</p>
                                 </div>
                             </div>
-                          
+
                         </div>
                         <div className={openTab === 3 ? "block" : "hidden"} id="link3">
                             <div className='flex items-center justify-center gap-4'>
@@ -54,7 +54,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div className={openTab === 4 ? "block" : "hidden"} id="link4">
                             <div className='flex items-center justify-center gap-4'>
@@ -64,7 +64,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div className={openTab === 5 ? "block" : "hidden"} id="link5">
                             <div className='flex items-center justify-center gap-4'>
@@ -74,7 +74,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div className={openTab === 6 ? "block" : "hidden"} id="link6">
                             <div className='flex items-center justify-center gap-4'>
@@ -84,7 +84,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div className={openTab === 7 ? "block" : "hidden"} id="link7">
                             <div className='flex items-center justify-center gap-4'>
@@ -94,7 +94,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div className={openTab === 8 ? "block" : "hidden"} id="link8">
                             <div className='flex items-center justify-center gap-4'>
@@ -104,7 +104,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                          
+
                         </div>
                         <div className={openTab === 9 ? "block" : "hidden"} id="link9">
                             <div className='flex items-center justify-center gap-4'>
@@ -114,7 +114,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div className={openTab === 10 ? "block" : "hidden"} id="link10">
                             <div className='flex items-center justify-center gap-4'>
@@ -124,7 +124,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta3</p>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div className={openTab === 11 ? "block" : "hidden"} id="link11">
                             <div className='flex items-center justify-center gap-4'>
@@ -134,7 +134,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta12</p>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div className={openTab === 12 ? "block" : "hidden"} id="link12">
                             <div className='flex items-center justify-center gap-4'>
@@ -144,7 +144,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta13</p>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div className={openTab === 13 ? "block" : "hidden"} id="link13">
                             <div className='flex items-center justify-center gap-4'>
@@ -154,7 +154,7 @@ export default function Customer() {
                                     <p className='text-white ff_mazzardregular text-[16px] font-normal mt-[2px]  leading-[150%]'>Quisque Porta14</p>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div className={openTab === 14 ? "block" : "hidden"} id="link14">
                             <div className='flex items-center justify-center gap-4'>
@@ -166,7 +166,7 @@ export default function Customer() {
                             </div>
                         </div>
                     </div>
-                    <div className='flex justify-center'>
+                    <div className='flex justify-center lg:mt-[30px] md:mt-[27px] mt-[20px]'>
                         <span className='md:mr-[10px]'><UpCommaSvg /></span>
                         <p className='lg:max-w-[692px] ff_mazzardregular lg:text-[16px] text-[14px] font-normal leading-[150%] text-center text-white mt-[30px] mb-[34px] opacity-70'>Lorem ipsum dolor sit amet consectetur. Sed tellus feugiat sagittis nisi. Sed mauris tortor amet hac sem leo vitae. Vel non enim vitae luctus. Tortor duis est eget feugiat duis nunc feugiat posuere.
                             Quisque ipsum porta vel vitae sapien amet. Orci sed vestibulum aliquet facilisis lorem viverra sagittis ipsum pulvinar. Vestibulum dictum ultrices quis dapibus id viverra quam.</p>

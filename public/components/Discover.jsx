@@ -22,7 +22,6 @@ export default function Discover() {
         {
             heading: "Designer Portfolio",
             paragraph: "Explore a showcase of unique design projects that blend creativity and technical finesse.",
-            // img1: { discardimg2 }
         },
         {
             heading: "FutureTech AI",
@@ -37,11 +36,12 @@ export default function Discover() {
             paragraph: "Unravel the latest in artificial intelligence with insightful perspectives on FutureTech's blog."
         },
     ]
+
     return (
         <>
-            <div className="container mx-auto max-w-[1164px] px-3 mb-[170px]">
+            <div className="container mx-auto max-w-[1164px] px-3 xl:mb-[170px] lg:mb-[130px] md:mb-[120px] mb-[85px]">
                 <h2 className="ff_mazzardsemibold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] text-center mb-3">Discover Our Portfolio</h2>
-                <p className='lg:text-[16px] sm:text-[14px] text-[12px] font-normal leading-[150%] text-white opacity-80 text-center mt-[12px] mb-[60px]'>Lorem ipsum dolor sit amet consectetur. Nec volutpat tincidunt facilisi leo id suscipit posuere. Amet <span className='md:block'>mauris quis sit vulputate elementum arcu lacus sagittis amet</span></p>
+                <p className='lg:text-[16px] sm:text-[14px] text-[12px] font-normal leading-[150%] text-white opacity-80 text-center mt-[12px] lg:mb-[60px] md:mb-[40px] mb-[32px]'>Lorem ipsum dolor sit amet consectetur. Nec volutpat tincidunt facilisi leo id suscipit posuere. Amet <span className='md:block'>mauris quis sit vulputate elementum arcu lacus sagittis amet</span></p>
                 <div className="flex flex-row flex-wrap justify-between">
                     {DiscoverArr.map((e) => {
                         return (
@@ -52,9 +52,9 @@ export default function Discover() {
                                     <div className="flex gap-4 ">
                                         <div className="p-[0.88px] bg-gradient-to-t from-[#00BCD4] to-[#3145EC] inline-flex rounded-[88.37px] mt-4">
                                             <button className="lg:py-[9px] lg:px-[12px] px-[7px] py-[5px] rounded-[88.37px] bg-[#060606] gap-[5px] flex flex-row items-center">
-                                                <p className="text-[16px] ff_mazzardregular font-normal leading-[150%] text-[#FFFFFF80] ">Category</p>
+                                                <p className="lg:text-[16px] text-[12px] ff_mazzardregular font-normal leading-[150%] text-[#FFFFFF80] ">Category</p>
                                                 <div className="h-[4px] w-[4px] bg-white rounded-[50%]"></div>
-                                                <p className="text-[16px] font-normal ff_mazzardregular text-white">AI</p>
+                                                <p className="lg:text-[16px] text-[12px] font-normal ff_mazzardregular text-white">AI</p>
                                             </button>
                                         </div>
                                         <div className="p-[0.88px] bg-gradient-to-t from-[#00BCD4] to-[#3145EC] inline-flex rounded-[88.37px] mt-4">

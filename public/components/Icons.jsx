@@ -233,7 +233,7 @@ export const DownCommaSvg = () => {
 
 export const Tweeter = () => {
     return (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="lg:w-[32px] lg:h-[32px] md:w-[28px] md:h-[28px]" width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="32" height="32" rx="16" fill="url(#paint0_linear_3054_98)" fill-opacity="0.12" />
             <circle cx="16" cy="16" r="16" fill="url(#paint1_linear_3054_98)" fill-opacity="0.12" />
             <circle cx="16" cy="16" r="15.5" stroke="url(#paint2_linear_3054_98)" stroke-opacity="0.24" />
@@ -268,7 +268,7 @@ export const Tweeter = () => {
 
 export const Instagram = () => {
     return (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="lg:w-[32px] lg:h-[32px] md:w-[28px] md:h-[28px]" width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="32" height="32" rx="16" fill="url(#paint0_linear_3054_101)" fill-opacity="0.12" />
             <circle cx="16" cy="16" r="16" fill="url(#paint1_linear_3054_101)" fill-opacity="0.12" />
             <circle cx="16" cy="16" r="15.5" stroke="url(#paint2_linear_3054_101)" stroke-opacity="0.24" />
@@ -303,7 +303,7 @@ export const Instagram = () => {
 
 export const Camera = () => {
     return (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="lg:w-[32px] lg:h-[32px] md:w-[28px] md:h-[28px]" width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="32" height="32" rx="16" fill="url(#paint0_linear_3054_104)" fill-opacity="0.12" />
             <circle cx="16" cy="16" r="16" fill="url(#paint1_linear_3054_104)" fill-opacity="0.12" />
             <circle cx="16" cy="16" r="15.5" stroke="url(#paint2_linear_3054_104)" stroke-opacity="0.24" />
@@ -339,7 +339,7 @@ export const Camera = () => {
 
 export const Linkdin = () => {
     return (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="lg:w-[32px] lg:h-[32px] md:w-[28px] md:h-[28px]" width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="32" height="32" rx="16" fill="url(#paint0_linear_3054_107)" fill-opacity="0.12" />
             <circle cx="16" cy="16" r="16" fill="url(#paint1_linear_3054_107)" fill-opacity="0.12" />
             <circle cx="16" cy="16" r="15.5" stroke="url(#paint2_linear_3054_107)" stroke-opacity="0.24" />
@@ -391,7 +391,7 @@ export const Linkdin = () => {
 
 export const Mail = () => {
     return (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="lg:w-[32px] lg:h-[32px] md:w-[24px] md:h-[24px]" width="18" height="18" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="32" height="32" rx="16" fill="url(#paint0_linear_3054_131)" fill-opacity="0.12" />
             <circle cx="16" cy="16" r="16" fill="url(#paint1_linear_3054_131)" fill-opacity="0.12" />
             <circle cx="16" cy="16" r="15.5" stroke="url(#paint2_linear_3054_131)" stroke-opacity="0.24" />
@@ -428,7 +428,7 @@ export const Mail = () => {
 
 export const Phoneicon = () => {
     return (
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="lg:w-[32px] lg:h-[32px] md:w-[24px] md:h-[24px]" width="18" height="18" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="32" height="32" rx="16" fill="url(#paint0_linear_3054_123)" fill-opacity="0.12" />
             <circle cx="16" cy="16" r="16" fill="url(#paint1_linear_3054_123)" fill-opacity="0.12" />
             <circle cx="16" cy="16" r="15.5" stroke="url(#paint2_linear_3054_123)" stroke-opacity="0.24" />

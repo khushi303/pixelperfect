@@ -9,7 +9,7 @@ import leftpyramid from '../assets/images/png/leftpyramid.png'
 import rightpyramid from '../assets/images/png/rightpyramid.png'
 import { Navicon } from './Icons'
 
-export default function Header() {
+export default function Header(props) {
     const [nav, setNav] = useState(true)
     return (
         <div className=''>
@@ -34,7 +34,7 @@ export default function Header() {
                                     <button className='px-[32px] py-[16px]  rounded-[40px] bg-[#00000003] text-white shadow-[5px_-5px_20px_0px_#1291DD52] '>Get started</button>
                                 </div>
                             </div>
-                            <div onClick={() => setNav(!nav)} className='md:hidden w-[24px] h-[24px] relative z-20 flex justify-center flex-col cursor-pointer'>
+                            <div onClick={() => setNav(!nav)} className='md:hidden sm:w-[30px] sm:h-[30px] w-[24px] h-[24px] relative z-20 flex justify-center flex-col cursor-pointer'>
                                 {/*  */}
                                 {nav ? (<Navicon />) : (
                                     <>
