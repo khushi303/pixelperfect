@@ -501,7 +501,7 @@ export const Chain = () => {
 
 export const DisPrevBtn = () => {
     return (
-        <div>
+        <div className="cursor-pointer">
             <svg className="lg:w-[34px] lg:h-[34px]" width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="-0.441858" y="0.441858" width="33.1163" height="33.1163" rx="16.5581" transform="matrix(-1 0 0 1 33.1163 0)" stroke="url(#paint0_linear_457_3076)" stroke-opacity="0.7" stroke-width="0.883716" />
                 <path d="M19.8112 12.4651L14.8112 17.4651L19.8112 22.4651" stroke="white" stroke-width="1.76743" stroke-linecap="round" stroke-linejoin="round" />
@@ -518,7 +518,7 @@ export const DisPrevBtn = () => {
 
 export const DisNextBtn = () => {
     return (
-        <div>
+        <div className="cursor-pointer">
             <svg className="lg:w-[34px] lg:h-[34px]" width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="34" height="34" rx="17" fill="url(#paint0_linear_457_3079)" fill-opacity="0.4" />
                 <rect x="0.441858" y="0.441858" width="33.1163" height="33.1163" rx="16.5581" stroke="url(#paint1_linear_457_3079)" stroke-opacity="0.7" stroke-width="0.883716" />

@@ -33,7 +33,6 @@ export default function Header(props) {
                                 <Image src={logo} alt='logo' width={98} height={20} className='md:w-[175px] md:h-[37px] object-cover object-center' />
                             </a>
                             <ul className={`${nav ? "left-[-100%]" : "left-0"} flex max-md:fixed max-md:top-0 max-md:h-full z-40 max-md:w-full max-md:z-20 max-md:transition-all max-md:duration-300 max-md:ease-linear max-md:bg-black max-md:min-h-screen max-md:flex-col gap-6 items-center justify-center`}>
-                                {/* <li onClick={() => setNav(!nav)}><a href="#" className='ff_mazzardregular text-white font-normal text-[16px] opacity-70 hover:opacity-100 transition-all duration-300 ease-linear'>Home</a></li> */}
                                 <Link href="/" className="ff_mazzardregular text-white font-normal text-[16px] opacity-70 hover:opacity-100 transition-all duration-300 ease-linear">Home</Link>
                                 <Link href="/about" className="ff_mazzardregular text-white font-normal text-[16px] opacity-70 hover:opacity-100 transition-all duration-300 ease-linear">About Us</Link>
                                 <Link href="/portfolio" className="ff_mazzardregular text-white font-normal text-[16px] opacity-70 hover:opacity-100 transition-all duration-300 ease-linear">Portfolio</Link>

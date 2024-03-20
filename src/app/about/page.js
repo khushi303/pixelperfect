@@ -37,8 +37,6 @@ export default function about() {
                 <Discover />
                 <Customer />
                 <Footer />
-
-                {/* <div className="ball" style={{ top: position.y, left: position.x }}></div> */}
             </main>
         </>
     )
