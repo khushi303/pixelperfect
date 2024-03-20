@@ -28,7 +28,7 @@ export default function Header(props) {
 
     return (
         <div>
-            <div className=' bg-cover bg-center bg-no-repeat xl:h-[758px] relative lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col mb-[85px]'>
+            <div className='bg-bgheader bg-cover bg-center bg-no-repeat xl:h-[758px] relative lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col mb-[85px]'>
                 <div className='bg-gradient-to-b from-[#060606] to-[rgba(0,0,0,0)] relative'>
                     {/* <div className='absolute inset-0'><ParticlesP5 /></div> */}
                     <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
@@ -64,8 +64,8 @@ export default function Header(props) {
                 </div>
                 <div className='container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6 lg:mt-0 md:mt-[42px] mt-[73px] lg:flex-grow flex items-center justify-center relative z-10'>
                     <div className='lg:max-w-[700px] md:max-w-[500px] sm:max-w-[400px] max-w-[300px]'>
-                        <h1 className='lg:text-[64px] sm:text-[32px] text-[24px] font-bold ff_mazzardbold text-center text-white leading-[120%]'>Unleash Your Digital <span className='md:block sm:inline block'>Potential Today</span></h1>
-                        <p className='lg:text-[16px] sm:text-[14px] text-[12px]  font-normal ff_mazzardregular text-center leading-[150%] text-white opacity-80 mt-[10px]'>Elevate your online presence with our expert web solutions tailored <span className='lg:block'>to amplify your brand's success in the digital landscape.</span></p>
+                        <h1 className='lg:text-[64px] sm:text-[32px] text-[24px] font-bold ff_mazzardbold text-center text-white leading-[120%]'>{props.headname}<span className='md:block sm:inline block'>{props.headname2}</span></h1>
+                        <p className='lg:text-[16px] sm:text-[14px] text-[12px]  font-normal ff_mazzardregular text-center leading-[150%] text-white opacity-80 mt-[10px]'>{props.para1}<span className='lg:block'>{props.para2}</span></p>
                         <div className='lg:mt-[40px] md:mt-[32px] mt-[24px] flex items-center justify-center'>
                             <CommonBtn btnname="Book a call now" />
                         </div>

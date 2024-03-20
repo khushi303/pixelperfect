@@ -8,7 +8,7 @@ import Link from 'next/link';
 export default function Footer() {
     return (
         <div className='relative'>
-            <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6 mb-[92px] xl:mt-[210px] lg:mt-[160px] md:mt-[140px] mt-[80px]">
+            <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6 mb-[92px] xl:mt-[210px] lg:mt-[160px] md:mt-[140px] mt-[80px] z-10 relative">
                 <div className='loading-box1 !rounded-[24px]'>
                     <div className="lg:pt-[60px] lg:pl-[60px] max-w-[1140px] lg:pb-[104px] md:pl-[40px] md:pt-[40px] md:pb-[67px] md:pr-0 px-[24px] pt-[26px] pb-[12px] bg-[#060606] rounded-[24px] relative flex md:justify-between justify-center flex-wrap">
                         <div className='lg:w-[70%] md:w-[60%] w-[full]'>

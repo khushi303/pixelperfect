@@ -1,41 +1,41 @@
-import { Webdesign, Marketing, ServiceSvg3, ServiceSvg4, ServiceSvg5, ServiceSvg6 } from './Icons'
+import { Aboutsvg6, Aboutsvg5, Aboutsvg4, Aboutsvg3, Aboutsvg2, Aboutsvg1 } from './Icons'
 
-export default function Cards(props) {
+export default function ServiceCard() {
     const arr = [
-        {   
-            id:1,
-            name: <Webdesign />,
-            heading: "Affordable Website Design",
+        {
+            id: 1,
+            name: <Aboutsvg1 />,
+            heading: "Best Developers",
         },
         {
             id: 2,
-            name: <Marketing />,
-            heading: "Digital Marketing",
+            name: <Aboutsvg2 />,
+            heading: "Affordable Price",
         },
         {
             id: 3,
-            name: <ServiceSvg3 />,
-            heading: "Logo Design & More",
+            name: <Aboutsvg3 />,
+            heading: "24/7 Support",
         },
         {
             id: 4,
-            name: <ServiceSvg4 />,
-            heading: "Website Maintenance",
+            name: <Aboutsvg4 />,
+            heading: "Best Designer",
         },
         {
             id: 5,
-            name: <ServiceSvg5 />,
-            heading: "Website Development",
+            name: <Aboutsvg5 />,
+            heading: "Security Focused",
         },
         {
             id: 6,
-            name: <ServiceSvg6 />,
-            heading: "Search Engine Optimization",
+            name: <Aboutsvg6 />,
+            heading: "Quality Assurance",
         },
     ]
     return (
         <>
-            {arr.map((e,id) => {
+            {arr.map((e, id) => {
                 return (
                     <div id={id} className="md:w-[31%] sm:w-[47.5%] w-[45.6%]">
                         <div className='md:px-[24px] p-[12px] cursor-pointer md:py-[24px] lg:pb-[32px]  border  border-solid border-[#2C2C2C] rounded-[12px] bg-[#060606] hover:bg-gradient-to-t hover:from-[rgba(0,188,212,0.04)] hover:to-[rgba(49,69,236,0.10)] transition-all duration-500 ease-linear h-full group loading-box'>

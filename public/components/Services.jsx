@@ -1,4 +1,4 @@
-import ServiceCard from './ServiceCard';
+
 
 export default function Services(props) {
     return (
@@ -12,7 +12,7 @@ export default function Services(props) {
                     <div className='bg-gradient-to-br from-[#00BCD4] to-[#3145EC] w-[18px] h-[18px] rounded-[50%] absolute top-[-8px] right-[-2px]'></div>
                 </div>
                 <div className="flex justify-between flex-wrap gap-6">
-                    <ServiceCard />
+                     {props.cards}
                 </div>
             </div>
             <div className='w-[167px] h-[167px] bg-[#00BCD4] absolute top-[8%] left-[-140px] blur-[300px]'></div>

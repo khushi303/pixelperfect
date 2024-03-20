@@ -12,6 +12,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        "bgcustomer": "url(../../public/assets/images/png/bgcustomer.png)",
         "bgheader": "url(../../public/assets/images/png/bgheader.png)",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
