@@ -68,7 +68,7 @@ export default function Discover() {
                     {DiscoverArr.map((e) => {
                         return (
                             <div className="lg:w-[48.5%] md:w-[48%] w-full p-[2px] overflow-hidden">
-                                <div className="lg:p-[32px] md:p-[20px] p-[16px] border border-solid border-[#2C2C2C] rounded-[12px] loading-box bg-[#060606] hover:bg-gradient-to-t from-[rgba(0,188,212,0.04)] to-[rgba(49,69,236,0.04)]">
+                                <div className="lg:p-[32px] md:p-[20px] p-[16px] border border-solid group border-[#2C2C2C] rounded-[12px] loading-box bg-[#060606] hover:bg-gradient-to-t from-[rgba(0,188,212,0.04)] to-[rgba(49,69,236,0.04)]">
                                     <h2 className="lg:text-[24px] sm:text-[16px] text-[14px] ff_mazzardbold font-bold leading-[100%] text-white">{e.heading}</h2>
                                     <p className="lg:text-[16px] text-[12px] font-normal leading-[150%] text-white opacity-80 mt-2">{e.paragraph}</p>
                                     <div className="flex gap-4 ">
@@ -92,8 +92,8 @@ export default function Discover() {
                                         </div>
 
                                     </div>
-                                    <div className='loading_discover  rounded-[12px] mt-[24px] z-[1]'>
-                                        <div className='lg:px-[24px] lg:pb-[33px] lg:pt-[24px] md:p-[20px] p-[12px]  relative bg-[#060606] rounded-[12px]'>
+                                    <div className='loading_discover rounded-[12px] mt-[24px] z-[1] bg-[#060606]'>
+                                        <div className='lg:px-[24px] lg:pb-[33px] lg:pt-[24px] md:p-[20px] p-[12px]  relative  rounded-[12px]'>
                                             <div className="bg-gradient-to-t from-[rgba(0,188,212,0.04)] to-[rgba(49,69,236,0.04)]">
                                                 <Slider ref={e.slide} {...settings} className="md:h-[100px] lg:h-[100%]">
                                                     <div className="lg:px-[10px] md:px-2 px-[6px]">
@@ -122,7 +122,7 @@ export default function Discover() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="bg-gradient-to-br from-[#00BCD4] to-[#3145EC] left-[5%] right-[5%] h-[24px] absolute bottom-[-5%] blur-[35px] z-50"></div>
+                                    <div className="bg-gradient-to-b group-hover:opacity-100 opacity-0  transition-all ease-linear duration-300 from-[#00BCD4] to-[#3145EC] left-[5%] right-[5%] h-[24px] absolute bottom-[-3%] blur-[60px] z-50"></div>
                                 </div>
                             </div >
                         )

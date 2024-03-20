@@ -9,7 +9,6 @@ import slideimg2 from '../assets/images/png/slideimg2.png'
 import slideimg3 from '../assets/images/png/slideimg3.png'
 import slideimg4 from '../assets/images/png/slideimg4.png'
 import slideimg5 from '../assets/images/png/slideimg5.png'
-import { CallSvg } from './Icons'
 
 
 export default function Trusted() {
@@ -55,10 +54,6 @@ export default function Trusted() {
         <div className="lg:mt-0 mt-12">
 
             <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
-                <div className="flex items-center justify-end pr-9 z-10 mb-6">
-                    <button className="bg-gradient-to-r fixed right-0 from-[#00BCD4] to-[#3145EC] loading_header py-[16px] px-[32px] text-[16px] font-medium text-white rounded-[40px] flex gap-2">Book a call <CallSvg /></button>
-                </div>
-
                 <h2 className="ff_mazzardbold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] text-center mb-3">Trusted by</h2>
                 <div className="lg:py-[30px] md:py-[20px] py-[15px]">
                     <Slider {...settings} className="">

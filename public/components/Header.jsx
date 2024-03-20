@@ -9,7 +9,9 @@ import leftpyramid from '../assets/images/png/leftpyramid.png'
 import rightpyramid from '../assets/images/png/rightpyramid.png'
 import { Navicon } from './Icons'
 import Link from 'next/link';
-// import ParticlesP5 from './Particlejs';
+import { useRouter } from 'next/router';
+import Navbar from './NavTabs';
+import ParticlesP5 from './Particlejs';
 
 export default function Header(props) {
     const [nav, setNav] = useState(true)
@@ -26,20 +28,18 @@ export default function Header(props) {
 
     return (
         <div>
-            <div className='bg-bgheader bg-cover bg-center bg-no-repeat xl:h-[768px] lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col '>
+            <div className=' bg-cover bg-center bg-no-repeat xl:h-[758px] relative lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col mb-[85px]'>
                 <div className='bg-gradient-to-b from-[#060606] to-[rgba(0,0,0,0)] relative'>
-                    {/* <div className='absolute inset-0'><ParticlesP5 /></div> */}
+                    <div className='absolute inset-0'><ParticlesP5 /></div>
                     <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
                         <div className="flex items-center justify-between py-[26px]">
                             <a href="">
                                 <Image src={logo} alt='logo' width={98} height={20} className='md:w-[175px] md:h-[37px] object-cover object-center' />
                             </a>
                             <ul className={`${nav ? "left-[-100%]" : "left-0"} flex max-md:fixed max-md:top-0 max-md:h-full z-40 max-md:w-full max-md:z-20 max-md:transition-all max-md:duration-300 max-md:ease-linear max-md:bg-black max-md:min-h-screen max-md:flex-col gap-6 items-center justify-center`}>
-                                <Link href="/" className="ff_mazzardregular text-white font-normal text-[16px] opacity-70 hover:opacity-100 transition-all duration-300 ease-linear">Home</Link>
-                                <Link href="/about" className="ff_mazzardregular text-white font-normal text-[16px] opacity-70 hover:opacity-100 transition-all duration-300 ease-linear">About Us</Link>
-                                <Link href="/portfolio" className="ff_mazzardregular text-white font-normal text-[16px] opacity-70 hover:opacity-100 transition-all duration-300 ease-linear">Portfolio</Link>
-                                <Link href="/about" className="ff_mazzardregular text-white font-normal text-[16px] opacity-70 hover:opacity-100 transition-all duration-300 ease-linear">Contact</Link>
-                                <li className='max-md:block hidden blur_box transition-all duration-300 ease-linear hover:shadow-[0_2px_20px_0_#00BCD4] '>
+
+                                <Navbar />
+                                <li className='max-md:block hidden blur_box transition-all duration-300 ease-linear active:shadow-[0_2px_20px_0_#00BCD4] '>
                                     <div className='loading_header relative bg-[#060606] rounded-[40px] '>
                                         <button className='px-[32px] py-[16px]  rounded-[40px] bg-[#00000003] text-white shadow-[5px_-5px_20px_0px_#1291DD52] leading-[150%]'>Get started</button>
                                     </div>
@@ -92,4 +92,3 @@ export default function Header(props) {
         </div>
     )
 }
-
