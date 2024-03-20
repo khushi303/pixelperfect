@@ -1,5 +1,5 @@
 import { CommonBtn } from './CommonBtn'
-import blackcat from '../assets/images/png/blackcat.png'
+import blackcat from '../assets/images/png/headercat.png'
 import Image from 'next/image'
 import footerlogo from '../assets/images/png/footerlogo.png'
 import { Tweeter, Camera, Instagram, Linkdin, Phoneicon, Mail } from './Icons'
@@ -16,7 +16,7 @@ export default function Footer() {
                             <h2 className="ff_mazzardbold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] mb-3">Let's Start a Project Together</h2>
                             <p className='ff_mazzardregular lg:text-[16px] sm:text-[14px] text-[12px] font-normal leading-[150%] text-white opacity-80 mt-[12px] mb-[32px] max-w-[680px]'>Let's transform your digital aspirations into a tangible success story. Submit the form, and we'll be in touch to discuss the next steps in bringing your project to fruition.</p>
                             <CommonBtn btnname="Start a Project" /></div>
-                        <div className='md:absolute right-0 bottom-[8%] max-md:mt-[27px]'>
+                        <div className='md:absolute right-[2%] bottom-[8%] max-md:mt-[27px]'>
                             <Image src={blackcat} alt={blackcat} width={196} height={257} className='lg:w-[328px] lg:h-[430px] md:w-[250px] md:h-[327px]' />
                         </div>
                     </div>
@@ -41,18 +41,18 @@ export default function Footer() {
                 <div className='flex items-center justify-between'>
                     <ul>
                         <li>
-                            <a href="#" className='ff_mazzardregular opacity-80 lg:text-[14px] md:text-[12px] text-[10px] font-normal text-white leading-[150%]'>Privacy policy</a>
+                            <a href="#" className='ff_mazzardregular opacity-80 lg:text-[14px] md:text-[12px] text-[10px] font-normal text-white leading-[150%] hover:opacity-100 transition-all duration-300 ease-linear'>Privacy policy</a>
                         </li>
                         <li className='sm:mt-3 mt-[6px]'>
-                            <a href="#" className='ff_mazzardregular opacity-80 lg:text-[14px] md:text-[12px] text-[10px] font-normal text-white leading-[150%]'>Terms and Conditions</a>
+                            <a href="#" className='ff_mazzardregular opacity-80 lg:text-[14px] md:text-[12px] text-[10px] font-normal text-white leading-[150%] hover:opacity-100 transition-all duration-300 ease-linear'>Terms and Conditions</a>
                         </li>
                     </ul>
                     <ul className=''>
                         <li>
-                            <a href="tel:+15555593440" className='ff_mazzardregular flex items-center gap-2 opacity-80 lg:text-[14px] md:text-[12px] text-[10px] font-normal text-white leading-[150%]'><Phoneicon /> +1 555  5593 440</a>
+                            <a href="tel:+15555593440" className='ff_mazzardregular flex items-center gap-2 opacity-80 lg:text-[14px] md:text-[12px] text-[10px] font-normal text-white leading-[150%] group'><Phoneicon /> +1 555  5593 440</a>
                         </li>
                         <li className='sm:mt-3 mt-[6px]'>
-                            <a href="mailto:Support@pixelperfectds.com" className='ff_mazzardregular flex items-center gap-2 opacity-80 lg:text-[14px] md:text-[12px] text-[10px] font-normal text-white leading-[150%]'><Mail />Support@pixelperfectds.com</a>
+                            <a href="mailto:Support@pixelperfectds.com" className='ff_mazzardregular flex items-center gap-2 opacity-80 lg:text-[14px] md:text-[12px] text-[10px] font-normal text-white leading-[150%] group'><Mail />Support@pixelperfectds.com</a>
                         </li>
                     </ul>
                 </div>
@@ -60,11 +60,8 @@ export default function Footer() {
             <div className='py-4 border-t-[0.5px] border-solid border-[#ffffff66] mt-[16px] relative z-10'>
                 <p className='lg:text-[16px] sm:text-[14px] text-[12px] ff_mazzardregular font-normal text-white opacity-80 text-center'>Copyright ©Pixel Perfect | All Rights reserved 2024</p>
             </div>
-            {/* <div className='absolute bottom-0 left-0 right-0 flex items-center justify-center '>
-                <div className='max-w-[1018px] h-[469px] bg-[#060606] loading_header1 rounded-t-[100%] w-full'></div>
-            </div> */}
             <div className='absolute bottom-0 left-0 right-0 flex items-center justify-center '>
-                <Image src={footerellipse} alt='footerellipse' className='max-w-[1018px] h-[469px] w-full' />
+                <Image src={footerellipse} alt='footerellipse' className='max-w-[1018px] lg:h-[469px] h-[200px] w-full loading_header1' />
             </div>
         </div>
     )

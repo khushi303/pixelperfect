@@ -51,14 +51,14 @@ export default function Discover() {
                                     <h2 className="lg:text-[24px] sm:text-[16px] text-[14px] ff_mazzardbold font-bold leading-[100%] text-white">{e.heading}</h2>
                                     <p className="lg:text-[16px] text-[12px] font-normal leading-[150%] text-white opacity-80 mt-2">{e.paragraph}</p>
                                     <div className="flex gap-4 ">
-                                        <div className="p-[0.88px] bg-gradient-to-t from-[#00BCD4] to-[#3145EC] inline-flex rounded-[88.37px] mt-4">
+                                        <div className="p-[0.88px] bg-gradient-to-r from-[#00BCD4] to-[#3145EC] inline-flex rounded-[88.37px] mt-4">
                                             <div className="lg:py-[9px] lg:px-[12px] px-[7px] py-[5px] rounded-[88.37px] bg-[#060606] gap-[5px] flex flex-row items-center">
                                                 <p className="lg:text-[16px] text-[12px] ff_mazzardregular font-normal leading-[150%] text-[#FFFFFF80] ">Category</p>
                                                 <div className="h-[4px] w-[4px] bg-white rounded-[50%]"></div>
                                                 <p className="lg:text-[16px] text-[12px] font-normal ff_mazzardregular text-white">AI</p>
                                             </div>
                                         </div>
-                                        <div className="p-[0.88px] bg-gradient-to-t from-[#00BCD4] to-[#3145EC] inline-flex rounded-[88.37px] mt-4">
+                                        <div className="p-[0.88px] bg-gradient-to-r from-[#00BCD4] to-[#3145EC] inline-flex rounded-[88.37px] mt-4">
                                             <div className="py-[9px] px-[12px] rounded-[88.37px] bg-[#060606] gap-[5px] flex flex-row items-center">
                                                 <p className="lg:text-[16px] text-[12px] ff_mazzardregular font-normal leading-[150%] text-[#FFFFFF80] ">Work</p>
                                                 <div className="h-[4px] w-[4px] bg-white rounded-[50%]"></div>
@@ -82,18 +82,16 @@ export default function Discover() {
                                                 </div>
                                             </Slider>
                                             <div className="mt-[24px] flex items-center justify-between">
-                                                <div className="p-[0.88px] bg-gradient-to-t from-[#00BCD4] to-[#3145EC] inline-flex rounded-[88.37px] ">
+                                                <div className="p-[0.88px] bg-gradient-to-r from-[#00BCD4] to-[#3145EC] inline-flex rounded-[88.37px] ">
                                                     <div className="py-[9px] px-[12px] rounded-[88.37px] bg-[#060606] gap-[5px] flex flex-row items-center">
                                                         <span><Chain /></span>
                                                         <p className="lg:text-[16px] text-[12px] ff_mazzardregular font-normal leading-[150%] text-[#FFFFFF80] ">www.futuretech.io</p>
                                                     </div>
                                                 </div>
                                                 <div className="gap-2 flex">
-                                                    <button onClick={() => slider?.current?.slickPrev()}>  <DisPrevBtn /></button>
-                                                    <button onClick={() => slider?.current?.slickNext()}>   <DisNextBtn /></button>
+                                                    <button onClick={() => slider?.current?.slickPrev()}> <DisPrevBtn /></button>
+                                                    <button onClick={() => slider?.current?.slickNext()}>  <DisNextBtn /></button>
                                                 </div>
-
-
                                             </div>
                                         </div>
                                     </div>

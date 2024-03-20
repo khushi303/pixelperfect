@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import logo from '../assets/images/png/logo.png';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { CommonBtn } from './CommonBtn'
 import headercat from '../assets/images/png/headercat.png'
 import middlepyramid from '../assets/images/png/middlepyramid.png'
@@ -12,13 +12,19 @@ import Link from 'next/link';
 
 export default function Header(props) {
     const [nav, setNav] = useState(true)
-    if (nav === false) {
-        document.body.classList.add("max-md:overflow-hidden")
-    } else {
-        document.body.classList.remove("max-md:overflow-hidden")
-    }
+    const [_document, set_document] = useState(null)
+    useEffect(() => {
+        set_document(document)
+        if (nav === false) {
+            document.body.classList.add("max-md:overflow-hidden")
+        } else {
+            document.body.classList.remove("max-md:overflow-hidden")
+        }
+    }, [])
+
+
     return (
-        <div className=''>
+        <div>
             <div className='bg-bgheader bg-cover bg-center bg-no-repeat xl:h-[768px] lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col relative'>
                 <div className='bg-gradient-to-b from-[#060606] to-[rgba(0,0,0,0)]'>
                     <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
