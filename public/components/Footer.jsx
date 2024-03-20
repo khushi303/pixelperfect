@@ -3,7 +3,7 @@ import blackcat from '../assets/images/png/headercat.png'
 import Image from 'next/image'
 import footerlogo from '../assets/images/png/footerlogo.png'
 import { Tweeter, Camera, Instagram, Linkdin, Phoneicon, Mail } from './Icons'
-import footerellipse from '../assets/images/png/footerellipse.png';
+// import footerellipse from '../assets/images/png/footerellipse.png';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -63,7 +63,7 @@ export default function Footer() {
             <div className='absolute bottom-[-50%] left-0 right-0 flex items-center justify-center'>
                 <div className='loading_header1 inline-flex'>
                     {/* <Image src={footerellipse} alt='footerellipse' className='max-w-[1018px] lg:h-[469px] h-[200px] w-full ' /> */}
-                    <div className='w-[1010px] h-[1000px] bg-[#060606] rounded-tl-[50%] rounded-tr-[50%]'></div>
+                    <div className='lg:w-[1010px] w-[786px] h-[840px] lg:h-[1000px] bg-[#060606] rounded-tl-[50%] rounded-tr-[50%]'></div>
                 </div>
             </div>
         </div>
