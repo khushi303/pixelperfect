@@ -20,6 +20,11 @@ export default function Discover() {
     const slider1 = useRef(null);
     const slider2 = useRef(null);
     const slider3 = useRef(null);
+    const slider4 = useRef(null);
+    const slider5 = useRef(null);
+    const slider6 = useRef(null);
+    const slider7 = useRef(null);
+
     const settings = {
         dots: false,
         infinite: true,
@@ -53,35 +58,35 @@ export default function Discover() {
         {
             heading: "Designer Portfolio",
             paragraph: "Explore a showcase of unique design projects that blend creativity and technical finesse.",
-            slide: slider,
+            slide: slider3,
             img1: discardimg1,
             img2: discardimg2,
         },
         {
             heading: "Klothink Ecommerce",
             paragraph: "Unravel the latest in artificial intelligence with insightful perspectives on FutureTech's blog.",
-            slide: slider3,
+            slide: slider4,
             img1: discardimg7,
             img2: discardimg8,
         },
         {
             heading: "Testant Blogs",
             paragraph: "Tantalize your taste buds with culinary inspiration and global recipes on Tastent's food blog.",
-            slide: slider2,
+            slide: slider5,
             img1: discardimg5,
             img2: discardimg6,
         },
         {
             heading: "FutureTech AI",
             paragraph: "Unravel the latest in artificial intelligence with insightful perspectives on FutureTech's blog.",
-            slide: slider1,
+            slide: slider6,
             img1: discardimg3,
             img2: discardimg4,
         },
         {
             heading: "Klothink Ecommerce",
             paragraph: "Unravel the latest in artificial intelligence with insightful perspectives on FutureTech's blog.",
-            slide: slider3,
+            slide: slider7,
             img1: discardimg7,
             img2: discardimg8,
         },

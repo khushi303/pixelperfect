@@ -20,6 +20,8 @@ export default function DiscoverPort() {
     const slider1 = useRef(null);
     const slider2 = useRef(null);
     const slider3 = useRef(null);
+   
+
     const settings = {
         dots: false,
         infinite: true,
