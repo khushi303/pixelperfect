@@ -67,7 +67,7 @@ export default function Footer() {
             <div className='py-4 border-t-[0.5px] border-solid border-[#ffffff66] mt-[16px] relative z-10'>
                 <p className='lg:text-[16px] sm:text-[14px] text-[12px] ff_mazzardregular font-normal text-white opacity-80 text-center'>Copyright ©Pixel Perfect | All Rights reserved 2024</p>
             </div>
-            <div className='absolute bottom-[-50%] left-0 right-0 flex items-center justify-center z-[3]'>
+            <div className='absolute lg:bottom-[-50%] bottom-[-47%] left-0 right-0 flex items-center justify-center z-[3]'>
                 <div className='loading_header1 inline-flex'>
                     <div className='lg:w-[1010px] w-[786px] h-[840px] lg:h-[1000px] bg-[#060606] rounded-tl-[50%] rounded-tr-[50%]'></div>
                 </div>
