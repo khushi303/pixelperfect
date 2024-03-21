@@ -27,8 +27,8 @@ export default function Header(props) {
 
 
     return (
-        <div>
-            <div className='bg-bgheader bg-cover bg-center bg-no-repeat xl:h-[758px] relative lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col mb-[85px]'>
+        <div className='sm:mb-0 mb-7'>
+            <div className='bg-bgheader bg-cover bg-center bg-no-repeat xl:h-[758px] relative lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col ms:mb-[85px] mb-[66px]'>
                 <div className='bg-gradient-to-b from-[#060606] to-[rgba(0,0,0,0)] relative'>
                     {/* <div className='absolute inset-0'><ParticlesP5 /></div> */}
                     <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
@@ -86,7 +86,7 @@ export default function Header(props) {
                     <Image src={rightpyramid} alt='middlepyramid' width={300} className='xl:w-[505px] lg:w-[450px]' />
                 </div>
             </div>
-            <div className=' sm:hidden flex items-center justify-center pt-4'>
+            <div className=' sm:hidden flex items-center justify-center'>
                 <Image src={headercat} alt='headercat' width={208} height={237} />
             </div>
         </div>
