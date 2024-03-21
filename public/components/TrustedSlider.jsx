@@ -51,7 +51,7 @@ export default function Trusted() {
 
     };
     return (
-        <div className="lg:mt-0 mt-12">
+        <div className="lg:mt-0 mt-12 bg-[#060606] relative z-10">
 
             <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
                 <h2 className="ff_mazzardbold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] text-center mb-3">Trusted by</h2>

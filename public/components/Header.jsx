@@ -27,17 +27,16 @@ export default function Header(props) {
 
 
     return (
-        <div className='sm:mb-0 mb-7'>
-            <div className='bg-bgheader bg-cover bg-center bg-no-repeat xl:h-[758px] relative lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col ms:mb-[85px] mb-[66px]'>
-                <div className='bg-gradient-to-b from-[#060606] to-[rgba(0,0,0,0)] relative'>
-                    {/* <div className='absolute inset-0'><ParticlesP5 /></div> */}
+        <div className='sm:mb-0 mb-7 '>
+            <div className=' bg-cover bg-center bg-no-repeat xl:h-[758px] relative lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col ms:pb-[85px] pb-[66px]'>
+                <div className='bg-gradient-to-b from-[#060606] to-[rgba(0,0,0,0)] relative z-10 overflow-hidden'>
+                    {/* <div className='absolute top-0 left-0 right-0 bottom-0 z-[1]'><ParticlesP5 /></div> */}
                     <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
                         <div className="flex items-center justify-between py-[26px]">
                             <a href="">
-                                <Image src={logo} alt='logo' width={98} height={20} className='md:w-[175px] md:h-[37px] object-cover object-center' />
+                                <Image src={logo} alt='logo' width={98} height={20} className='md:w-[175px] md:h-[37px]' />
                             </a>
                             <ul className={`${nav ? "left-[-100%]" : "left-0"} flex max-md:fixed max-md:top-0 max-md:h-full z-40 max-md:w-full max-md:z-20 max-md:transition-all max-md:duration-300 max-md:ease-linear max-md:bg-black max-md:min-h-screen max-md:flex-col gap-6 items-center justify-center`}>
-
                                 <Navbar />
                                 <li className='max-md:block hidden blur_box transition-all duration-300 ease-linear active:shadow-[0_2px_20px_0_#00BCD4] '>
                                     <div className='loading_header relative bg-[#060606] rounded-[40px] '>
@@ -78,13 +77,15 @@ export default function Header(props) {
                 <div className='absolute left-0 right-0 bottom-0 flex items-center justify-center z-[2]'>
                     <Image src={middlepyramid} alt='middlepyramid' width={780} className='xl:w-[945px]' />
                 </div>
-                <div className='bg-gradient-to-t from-[#060606] to-[rgba(6,6,6,0)] absolute right-0 left-0 bottom-0 lg:h-[127px] md:h-[216px] h-[129px] z-[3]'></div>
+                <div className='bg-gradient-to-t from-[#060606] to-[rgba(6,6,6,0)] absolute right-0 left-0 bottom-0 lg:h-[127px] md:h-[216px] h-[129px] z-10'></div>
                 <div className='absolute left-0 bottom-[2%] z-[1]'>
                     <Image src={leftpyramid} alt='middlepyramid' width={300} className='xl:w-[485px] lg:w-[400px]' />
                 </div>
                 <div className='absolute right-0 bottom-[2%] z-[1]'>
                     <Image src={rightpyramid} alt='middlepyramid' width={300} className='xl:w-[505px] lg:w-[450px]' />
                 </div>
+                <div className='absolute bg-gradient-to-r from-[#120725] to-[#1b0d27] top-0 bottom-0 left-0 animationhead1 right-[50%] blur-[100px]'></div>
+                <div className='absolute bg-gradient-to-r from-[#301924] to-[#211028] top-0 bottom-0 right-0 aanimationhead2 left-[50%] blur-[100px]'></div>
             </div>
             <div className=' sm:hidden flex items-center justify-center'>
                 <Image src={headercat} alt='headercat' width={208} height={237} />

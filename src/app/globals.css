@@ -327,3 +327,55 @@ body {
     transform: translate(-50%, -50%) rotate(360deg)
   }
 }
+
+.svghover:hover div svg stop {
+  stop-color: #00BCD4;
+}
+
+/* 3145EC */
+
+.svghover:hover div svg stop.svgcolor {
+  stop-color: #3145EC;
+}
+
+.animationhead1 {
+  animation: bgcolor1 6s linear infinite;
+}
+
+@keyframes bgcolor1 {
+  0% {
+    left: 0;
+    right: 50%;
+  }
+
+  50% {
+    left: 100%;
+    right: 0;
+  }
+
+  100% {
+    left: 0;
+    right: 50%;
+  }
+}
+
+.animationhead2 {
+  animation: bgcolor2 4s linear infinite;
+}
+
+@keyframes bgcolor2 {
+  0% {
+    left: 50%;
+    right: 0;
+  }
+
+  50% {
+    left: 0;
+    right: 100%;
+  }
+
+  100% {
+    left: 50%;
+    right: 0;
+  }
+}
