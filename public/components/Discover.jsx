@@ -20,7 +20,7 @@ export default function DiscoverPort() {
     const slider1 = useRef(null);
     const slider2 = useRef(null);
     const slider3 = useRef(null);
-   
+
 
     const settings = {
         dots: false,
@@ -62,7 +62,7 @@ export default function DiscoverPort() {
     ]
 
     return (
-        <>
+        <div className="relative">
             <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6 xl:mb-[170px] lg:mb-[130px] md:mb-[120px] mb-[85px]">
                 <h2 className="ff_mazzardsemibold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] text-center mb-3">Discover Our Portfolio</h2>
                 <p className='lg:text-[16px] sm:text-[14px] text-[12px] font-normal leading-[150%] text-white opacity-80 text-center mt-[12px] lg:mb-[60px] md:mb-[40px] mb-[32px]'>Lorem ipsum dolor sit amet consectetur. Nec volutpat tincidunt facilisi leo id suscipit posuere. Amet <span className='md:block'>mauris quis sit vulputate elementum arcu lacus sagittis amet</span></p>
@@ -133,7 +133,10 @@ export default function DiscoverPort() {
                 <div className="flex items-center justify-center mt-10">
                     <CommonBtn btnname="View all projects" />
                 </div>
+
             </div >
-        </>
+            <div className='w-[167px] h-[167px] bg-[#00BCD4] absolute top-[8%] left-[-140px] blur-[200px]'></div>
+            <div className='w-[167px] h-[167px] bg-[#00BCD4] absolute bottom-0 right-[-140px] blur-[200px]'></div>
+        </div>
     )
 }

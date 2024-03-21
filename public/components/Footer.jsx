@@ -58,8 +58,8 @@ export default function Footer() {
             <div className='w-[206px] h-[206px] bg-[#8000FF] blur-[100px] absolute z-[1] bottom-[20%] right-[30%] animate-pulse'></div>
             <div className='w-[206px] h-[206px] bg-[#000AFF] blur-[100px] absolute z-[1] bottom-[22%] right-[40%] animate-pulse'></div>
             <div className='w-[206px] h-[206px] bg-[#0079FF] blur-[100px] absolute z-[1] bottom-[19%] right-[50%] animate-pulse'></div>
-            <div className='w-[167px] h-[167px] bg-[#00BCD4] absolute top-[39%] left-[-140px] blur-[300px]'></div>
-            <div className='w-[167px] h-[167px] bg-[#00BCD4] absolute top-[9%] right-[-140px] blur-[200px]'></div>
+            <div className='w-[167px] h-[167px] bg-[#00BCD4] absolute top-[39%] left-[-140px] blur-[200px]'></div>
+            <div className='w-[167px] h-[167px] bg-[#00BCD4] absolute top-[-3%] right-[-140px] blur-[140px]'></div>
             <div className='py-4 border-t-[0.5px] border-solid border-[#ffffff66] mt-[16px] relative z-10'>
                 <p className='lg:text-[16px] sm:text-[14px] text-[12px] ff_mazzardregular font-normal text-white opacity-80 text-center'>Copyright ©Pixel Perfect | All Rights reserved 2024</p>
             </div>
