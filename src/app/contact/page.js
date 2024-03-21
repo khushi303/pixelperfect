@@ -6,8 +6,8 @@ import React from 'react';
 import Header from "../../../public/components/Header";
 import DiscoverPort from "../../../public/components/DiscoverPort";
 
-export default function about() {
-   
+export default function contact() {
+
     return (
         <>
             <Head>
@@ -17,7 +17,6 @@ export default function about() {
             </Head>
             <main className="overflow-hidden">
                 <Header headname="Our Portfolio" para1="Diverse portfolio spanning industries, optimized for growth and" para2="stability, curated for long-term success and investor satisfaction." />
-                <DiscoverPort />
                 <Footer />
             </main>
         </>
