@@ -14,6 +14,8 @@ import discardimg6 from "../assets/images/png/discardimg32.png"
 import discardimg7 from "../assets/images/png/discardimg4.png"
 import discardimg8 from "../assets/images/png/discardimg42.png"
 import { CommonBtn } from './CommonBtn'
+import useWindowSize from './WindowSize'
+
 
 export default function DiscoverPort() {
     const slider = useRef(null);
@@ -60,6 +62,7 @@ export default function DiscoverPort() {
             img2: discardimg8,
         },
     ]
+    // const isMobile = window.screen.width < 600
 
     return (
         <div className="relative">

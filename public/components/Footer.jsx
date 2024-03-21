@@ -7,6 +7,7 @@ import { Tweeter, Facebook, Instagram, Linkdin, Phoneicon, Mail } from './Icons'
 import React from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import hillimg from '../assets/images/png/hillfooter.png'
 
 export default function Footer() {
     return (
@@ -17,9 +18,13 @@ export default function Footer() {
                         <div className='lg:w-[70%] md:w-[60%] w-[full]'>
                             <h2 className="ff_mazzardsemibold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] mb-3">Let's Start a Project Together</h2>
                             <p className='ff_mazzardregular lg:text-[16px] sm:text-[14px] text-[12px] font-normal leading-[150%] text-white opacity-80 mt-[12px] mb-[32px] xl:max-w-[736px] max-w-[600px]'>Let's transform your digital aspirations into a tangible success story. Submit the form, and we'll be in touch to discuss the next steps in bringing your project to fruition.</p>
-                            <CommonBtn btnname="Start a Project" /></div>
+                            <CommonBtn btnname="Start a Project" />
+                        </div>
                         <div className='md:absolute right-[2%] bottom-[8%] max-md:mt-[27px]'>
-                            <Image src={blackcat} alt={blackcat} width={196} height={257} className='lg:w-[328px] lg:h-[430px] md:w-[250px] md:h-[327px]' />
+                            <div className='relative'>
+                                <Image src={blackcat} alt={blackcat} width={196} height={257} className='lg:w-[328px] lg:h-[430px] md:w-[250px] md:h-[327px] relative z-[2]' />
+                                <Image src={hillimg} alt='hillimg' className='absolute bottom-0 z-[1]' />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -67,9 +72,9 @@ export default function Footer() {
             <div className='py-4 border-t-[0.5px] border-solid border-[#ffffff66] mt-[16px] relative z-10'>
                 <p className='lg:text-[16px] sm:text-[14px] text-[12px] ff_mazzardregular font-normal text-white opacity-80 text-center'>Copyright ©Pixel Perfect | All Rights reserved 2024</p>
             </div>
-            <div className='absolute lg:bottom-[-50%] bottom-[-47%] left-0 right-0 flex items-center justify-center z-[3]'>
+            <div className='absolute sm:bottom-[-50%] bottom-[-48%] left-0 right-0 flex items-center justify-center z-[3]'>
                 <div className='loading_header1 inline-flex'>
-                    <div className='lg:w-[1010px] w-[786px] h-[840px] lg:h-[1000px] bg-[#060606] rounded-tl-[50%] rounded-tr-[50%]'></div>
+                    <div className='lg:w-[1010px] w-[786px] sm:h-[840px] h-[780px] lg:h-[1000px] bg-[#060606] rounded-tl-[50%] rounded-tr-[50%]'></div>
                 </div>
             </div>
             <div className='bg-gradient-to-b from-[rgba(0,0,0,0.48)] to-[#000000] blur-[30px] absolute right-0 left-0 bottom-0 lg:h-[340px] md:h-[216px] h-[129px] z-[4]'></div>

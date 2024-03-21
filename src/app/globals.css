@@ -142,7 +142,7 @@ body {
 }
 
 .loading_header {
-  --radius: 1px;
+  --radius: 2px;
   position: relative;
   transition: all .3s linear;
 }
