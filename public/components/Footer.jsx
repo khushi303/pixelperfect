@@ -2,7 +2,7 @@
 import { CommonBtn } from './CommonBtn'
 import blackcat from '../assets/images/png/headercat.png'
 import Image from 'next/image'
-import footerlogo from '../assets/images/png/footerlogo.png'
+import { FooterLogo } from './Icons'
 import { Tweeter, Camera, Instagram, Linkdin, Phoneicon, Mail } from './Icons'
 import React from 'react'
 import Link from 'next/link'
@@ -15,8 +15,8 @@ export default function Footer() {
                 <div className='loading-box1 !rounded-[24px]'>
                     <div className="lg:pt-[60px] lg:pl-[60px] max-w-[1140px] lg:pb-[104px] md:pl-[40px] md:pt-[40px] md:pb-[67px] md:pr-0 px-[24px] pt-[26px] pb-[12px] bg-[#060606] rounded-[24px] relative flex md:justify-between justify-center flex-wrap">
                         <div className='lg:w-[70%] md:w-[60%] w-[full]'>
-                            <h2 className="ff_mazzardbold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] mb-3">Let's Start a Project Together</h2>
-                            <p className='ff_mazzardregular lg:text-[16px] sm:text-[14px] text-[12px] font-normal leading-[150%] text-white opacity-80 mt-[12px] mb-[32px] max-w-[680px]'>Let's transform your digital aspirations into a tangible success story. Submit the form, and we'll be in touch to discuss the next steps in bringing your project to fruition.</p>
+                            <h2 className="ff_mazzardsemibold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] mb-3">Let's Start a Project Together</h2>
+                            <p className='ff_mazzardregular lg:text-[16px] sm:text-[14px] text-[12px] font-normal leading-[150%] text-white opacity-80 mt-[12px] mb-[32px] xl:max-w-[736px] max-w-[600px]'>Let's transform your digital aspirations into a tangible success story. Submit the form, and we'll be in touch to discuss the next steps in bringing your project to fruition.</p>
                             <CommonBtn btnname="Start a Project" /></div>
                         <div className='md:absolute right-[2%] bottom-[8%] max-md:mt-[27px]'>
                             <Image src={blackcat} alt={blackcat} width={196} height={257} className='lg:w-[328px] lg:h-[430px] md:w-[250px] md:h-[327px]' />
@@ -25,24 +25,28 @@ export default function Footer() {
                 </div>
             </div>
             <div className='container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6 pt-[110px] xl:mt-[210px] lg:mt-[160px] md:mt-[134px] mt-[50px] relative z-10'>
-                <a href="">
-                    <Image src={footerlogo} alt='footerlogo' width={120} height={25} className='mx-auto lg:w-[291px] lg:h-[62px] md:w-[183px] md:h-[39px]' /></a>
+                <Link href={'/'}>
+                    {/* <Image src={logo} alt='logo'  /> */}
+                    <FooterLogo />
+                </Link>
+                {/* <a href="">
+                    <Image src={footerlogo} alt='footerlogo' ' /></a> */}
                 <ul className="flex items-center justify-center md:gap-6 gap-4 lg:mt-[57px] md:mt-[32px] mt-[24px]  flex-wrap">
                     <Navbars />
                 </ul>
                 <div className='sm:mt-6 mt-4 flex lg:gap-6 md:gap-4 gap-3 items-center justify-center lg:mb-[21px] md:mb-[14px] mb-[38px]'>
                     <Tweeter />
                     <Instagram />
-                    <Camera />
+                    <Instagram />
                     <Linkdin />
                 </div>
                 <div className='flex items-center justify-between'>
                     <ul>
                         <li>
-                            <a href="#" className='ff_mazzardregular opacity-80 lg:text-[14px] md:text-[12px] text-[10px] font-normal text-white leading-[150%] hover:opacity-100 transition-all duration-300 ease-linear'>Privacy policy</a>
+                            <a href="#privacy" className='ff_mazzardregular opacity-80 lg:text-[14px] md:text-[12px] text-[10px] font-normal text-white leading-[150%] hover:opacity-100 transition-all duration-300 ease-linear'>Privacy policy</a>
                         </li>
                         <li className='sm:mt-3 mt-[6px]'>
-                            <a href="#" className='ff_mazzardregular opacity-80 lg:text-[14px] md:text-[12px] text-[10px] font-normal text-white leading-[150%] hover:opacity-100 transition-all duration-300 ease-linear'>Terms and Conditions</a>
+                            <a href="#conditions" className='ff_mazzardregular opacity-80 lg:text-[14px] md:text-[12px] text-[10px] font-normal text-white leading-[150%] hover:opacity-100 transition-all duration-300 ease-linear'>Terms and Conditions</a>
                         </li>
                     </ul>
                     <ul className=''>

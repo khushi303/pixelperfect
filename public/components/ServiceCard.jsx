@@ -2,8 +2,8 @@ import { Webdesign, Marketing, ServiceSvg3, ServiceSvg4, ServiceSvg5, ServiceSvg
 
 export default function Cards(props) {
     const arr = [
-        {   
-            id:1,
+        {
+            id: 1,
             name: <Webdesign />,
             heading: "Affordable Website Design",
         },
@@ -35,9 +35,9 @@ export default function Cards(props) {
     ]
     return (
         <>
-            {arr.map((e,id) => {
+            {arr.map((e, id) => {
                 return (
-                    <div id={id} className="md:w-[31%] sm:w-[47.5%] w-[45.6%]">
+                    <div key={id} className="md:w-[31%] sm:w-[47.5%] w-[45.6%]">
                         <div className='md:px-[24px] p-[12px] cursor-pointer md:py-[24px] lg:pb-[32px]  border  border-solid border-[#2C2C2C] rounded-[12px] bg-[#060606] hover:bg-gradient-to-t hover:from-[rgba(0,188,212,0.04)] hover:to-[rgba(49,69,236,0.10)] transition-all duration-500 ease-linear h-full group loading-box svghover'>
                             <div className='sm:mb-[18px] mb-[12px]'>
                                 {e.name}

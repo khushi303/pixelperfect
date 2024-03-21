@@ -111,10 +111,10 @@ export default function DiscoverPort() {
                                                 </Slider>
                                                 <div className="mt-[24px] flex items-center justify-between">
                                                     <div className="p-[0.88px] bg-gradient-to-r from-[#00BCD4] to-[#3145EC] inline-flex rounded-[88.37px] ">
-                                                        <div className="py-[9px] px-[12px] rounded-[88.37px] bg-[#060606] gap-[5px] flex flex-row items-center">
+                                                        <a href="https://www.futuretech.io/" className="py-[9px] px-[12px] rounded-[88.37px] bg-[#060606] gap-[5px] flex flex-row items-center">
                                                             <span><Chain /></span>
                                                             <p className="lg:text-[16px] text-[12px] ff_mazzardregular font-normal leading-[150%] text-[#FFFFFF80] ">www.futuretech.io</p>
-                                                        </div>
+                                                        </a>
                                                     </div>
                                                     <div className="gap-2 flex">
                                                         <button onClick={() => e.slide?.current?.slickPrev()}> <DisPrevBtn /></button>

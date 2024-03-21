@@ -13,18 +13,18 @@ import Cards from '../../public/components/ServiceCard';
 
 
 export default function Home() {
-  const [position, setPosition] = useState({ x: 0, y: 0 });
-
+  // const top = () => {
+  //   document.documentElement.scrollTop = 0;
+  // };
+  const [backToTop, setbackToTop] = useState(false);
   useEffect(() => {
-    const handleMouseMove = (event) => {
-      setPosition({ x: event.clientX, y: event.clientY });
-    };
-
-    document.addEventListener('mousemove', handleMouseMove);
-
-    return () => {
-      document.removeEventListener('mousemove', handleMouseMove);
-    };
+    window.addEventListener("scroll", () => {
+      if (document.documentElement.scrollTop > 10) {
+        setbackToTop(true);
+      } else {
+        setbackToTop(false);
+      }
+    });
   }, []);
 
   return (
@@ -43,7 +43,7 @@ export default function Home() {
         <Footer />
         {/* <div className="ball" style={{ top: position.y, left: position.x }}></div> */}
         <div className="flex items-center justify-end z-10 fixed bottom-[2%] right-[3%]">
-          <button className="bg-gradient-to-r animation1  right-0 from-[#00BCD4] to-[#3145EC] loading_header py-[16px] px-[32px] text-[16px] font-medium text-white rounded-[40px] flex gap-2 group">Book a call <CallSvg /></button>
+          <a href="tel:9999999999" className={`bg-gradient-to-r animation1  right-0 from-[#00BCD4] to-[#3145EC] loading_header py-[12.04px]  sm:py-[16px] px-[32px] sm:text-[16px] text-[14px] sm:leading-[150%] leading-[115%] font-medium text-white rounded-[40px] loading_header flex gap-2 group items-center ${backToTop ? "" : "hidden"}`}>Book a call <CallSvg /></a>
         </div>
 
       </main>

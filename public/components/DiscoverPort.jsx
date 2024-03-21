@@ -35,6 +35,7 @@ export default function Discover() {
     };
     const DiscoverArr = [
         {
+            index: 1,
             heading: "Designer Portfolio",
             paragraph: "Explore a showcase of unique design projects that blend creativity and technical finesse.",
             slide: slider,
@@ -42,6 +43,7 @@ export default function Discover() {
             img2: discardimg2,
         },
         {
+            index: 2,
             heading: "FutureTech AI",
             paragraph: "Unravel the latest in artificial intelligence with insightful perspectives on FutureTech's blog.",
             slide: slider1,
@@ -49,6 +51,7 @@ export default function Discover() {
             img2: discardimg4,
         },
         {
+            index: 3,
             heading: "Testant Blogs",
             paragraph: "Tantalize your taste buds with culinary inspiration and global recipes on Tastent's food blog.",
             slide: slider2,
@@ -56,6 +59,7 @@ export default function Discover() {
             img2: discardimg6,
         },
         {
+            index: 4,
             heading: "Designer Portfolio",
             paragraph: "Explore a showcase of unique design projects that blend creativity and technical finesse.",
             slide: slider3,
@@ -63,6 +67,7 @@ export default function Discover() {
             img2: discardimg2,
         },
         {
+            index: 5,
             heading: "Klothink Ecommerce",
             paragraph: "Unravel the latest in artificial intelligence with insightful perspectives on FutureTech's blog.",
             slide: slider4,
@@ -70,6 +75,7 @@ export default function Discover() {
             img2: discardimg8,
         },
         {
+            index: 6,
             heading: "Testant Blogs",
             paragraph: "Tantalize your taste buds with culinary inspiration and global recipes on Tastent's food blog.",
             slide: slider5,
@@ -77,6 +83,7 @@ export default function Discover() {
             img2: discardimg6,
         },
         {
+            index: 7,
             heading: "FutureTech AI",
             paragraph: "Unravel the latest in artificial intelligence with insightful perspectives on FutureTech's blog.",
             slide: slider6,
@@ -84,6 +91,7 @@ export default function Discover() {
             img2: discardimg4,
         },
         {
+            index: 8,
             heading: "Klothink Ecommerce",
             paragraph: "Unravel the latest in artificial intelligence with insightful perspectives on FutureTech's blog.",
             slide: slider7,
@@ -98,9 +106,9 @@ export default function Discover() {
                 <h2 className="ff_mazzardsemibold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] text-center mb-3">Discover Our Portfolio</h2>
                 <p className='lg:text-[16px] sm:text-[14px] text-[12px] font-normal leading-[150%] text-white opacity-80 text-center mt-[12px] lg:mb-[60px] md:mb-[40px] mb-[32px]'>Lorem ipsum dolor sit amet consectetur. Nec volutpat tincidunt facilisi leo id suscipit posuere. Amet <span className='md:block'>mauris quis sit vulputate elementum arcu lacus sagittis amet</span></p>
                 <div className="flex flex-row flex-wrap gap-6 justify-between">
-                    {DiscoverArr.map((e) => {
+                    {DiscoverArr.map((e, index) => {
                         return (
-                            <div className="lg:w-[48.5%] md:w-[48%] w-full p-[2px] overflow-hidden">
+                            <div key={index} className="lg:w-[48.5%] md:w-[48%] w-full p-[2px] overflow-hidden">
                                 <div className="lg:p-[32px] md:p-[20px] p-[16px] border border-solid group border-[#2C2C2C] rounded-[12px] loading-box bg-[#060606] hover:bg-gradient-to-t from-[rgba(0,188,212,0.04)] to-[rgba(49,69,236,0.04)]">
                                     <h2 className="lg:text-[24px] sm:text-[16px] text-[14px] ff_mazzardbold font-bold leading-[100%] text-white">{e.heading}</h2>
                                     <p className="lg:text-[16px] text-[12px] font-normal leading-[150%] text-white opacity-80 mt-2">{e.paragraph}</p>
@@ -142,10 +150,10 @@ export default function Discover() {
                                                 </Slider>
                                                 <div className="mt-[24px] flex items-center justify-between">
                                                     <div className="p-[0.88px] bg-gradient-to-r from-[#00BCD4] to-[#3145EC] inline-flex rounded-[88.37px] ">
-                                                        <div className="py-[9px] px-[12px] rounded-[88.37px] bg-[#060606] gap-[5px] flex flex-row items-center">
+                                                        <a href="https://www.futuretech.io/" className="py-[9px] px-[12px] rounded-[88.37px] bg-[#060606] gap-[5px] flex flex-row items-center">
                                                             <span><Chain /></span>
                                                             <p className="lg:text-[16px] text-[12px] ff_mazzardregular font-normal leading-[150%] text-[#FFFFFF80] ">www.futuretech.io</p>
-                                                        </div>
+                                                        </a>
                                                     </div>
                                                     <div className="gap-2 flex">
                                                         <button onClick={() => e.slide?.current?.slickPrev()}> <DisPrevBtn /></button>
