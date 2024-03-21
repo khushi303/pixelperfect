@@ -319,6 +319,6 @@ body {
   }
 }
 
-.btnhover:hover svg .btn2 {
-  stop-opacity: 1;
+.btnhover:hover svg {
+  background: linear-gradient(54.39deg, rgba(255, 255, 255, 0) 13.97%, rgba(143, 226, 236, 0) 13.98%, rgba(0, 188, 212, 0.4) 49.97%, rgba(49, 69, 236, 0.4) 82.82%) !important;
 }

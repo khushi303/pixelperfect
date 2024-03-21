@@ -9,7 +9,6 @@ import leftpyramid from '../assets/images/png/leftpyramid.png'
 import rightpyramid from '../assets/images/png/rightpyramid.png'
 import { Navicon } from './Icons'
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import Navbar from './NavTabs';
 // import ParticlesP5 from './Particlejs';
 import { usePathname } from 'next/navigation'
@@ -37,7 +36,6 @@ export default function Header(props) {
                     <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
                         <div className="flex items-center justify-between py-[26px]">
                             <Link href={'/'}>
-                                {/* <Image src={logo} alt='logo'  /> */}
                                 <Logo />
                             </Link>
                             <ul className={`${nav ? "left-[-100%]" : "left-0"} flex max-md:fixed max-md:top-0 max-md:h-full z-50 max-md:w-full max-md:transition-all max-md:duration-300 max-md:ease-linear max-md:bg-black max-md:min-h-screen max-md:flex-col gap-6 items-center justify-center`}>

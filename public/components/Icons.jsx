@@ -553,7 +553,7 @@ export const Chain = () => {
         <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M11.5826 2.02325C12.6388 0.96287 14.1839 0.9406 15.0392 1.79926C15.8962 2.65954 15.8731 4.21431 14.8161 5.27541L13.0311 7.06733C12.8159 7.28344 12.8165 7.63315 13.0327 7.84843C13.2488 8.0637 13.5985 8.06303 13.8138 7.84691L15.5987 6.055C17.0063 4.642 17.183 2.38608 15.8219 1.01967C14.4591 -0.34836 12.2082 -0.170061 10.7999 1.24366L7.22999 4.82746C5.82245 6.24046 5.64574 8.49641 7.00686 9.86282C7.22214 10.0789 7.57185 10.0796 7.78796 9.86433C8.00407 9.64906 8.00475 9.29935 7.78947 9.08323C6.93252 8.22295 6.9556 6.66815 8.0126 5.60705L11.5826 2.02325Z" fill="url(#paint0_linear_457_3073)" />
             <path d="M10.6668 6.13751C10.4516 5.9214 10.1019 5.92072 9.88575 6.136C9.66963 6.35128 9.66896 6.70099 9.88423 6.9171C10.7412 7.77738 10.7181 9.33214 9.66111 10.3932L6.09117 13.9771C5.0349 15.0375 3.48981 15.0597 2.63447 14.2011C1.77751 13.3408 1.80059 11.786 2.85759 10.7249L4.64258 8.93296C4.85786 8.71685 4.85718 8.36714 4.64107 8.15186C4.42496 7.93659 4.07525 7.93726 3.85997 8.15338L2.07498 9.94529C0.667442 11.3583 0.490729 13.6143 1.85185 14.9807C3.2146 16.3487 5.46553 16.1704 6.87379 14.7567L10.4437 11.1728C11.8513 9.75983 12.028 7.50392 10.6668 6.13751Z" fill="url(#paint1_linear_457_3073)" />
-            <defs>
+            <defs className="transition-all duration-300 ease-linear">
                 <linearGradient id="paint0_linear_457_3073" x1="-4.29692" y1="-5.30356" x2="24.4695" y2="-8.48586" gradientUnits="userSpaceOnUse">
                     <stop offset="0.0440276" stopColor="#00BCD4" />
                     <stop offset="1" stopColor="#3145EC" />
@@ -569,12 +569,12 @@ export const Chain = () => {
 
 export const DisPrevBtn = () => {
     return (
-        <div className="cursor-pointer">
-            <svg className="lg:w-[34px] lg:h-[34px]" width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className="cursor-pointer btnhover transition-all duration-300 ease-linear">
+            <svg className="lg:w-[34px] lg:h-[34px] transition-all duration-300 ease-linear rounded-[50%]" width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="-0.441858" y="0.441858" width="33.1163" height="33.1163" rx="16.5581" transform="matrix(-1 0 0 1 33.1163 0)" stroke="url(#paint0_linear_457_3076)" strokeOpacity="0.7" strokeWidth="0.883716" />
                 <path d="M19.8112 12.4651L14.8112 17.4651L19.8112 22.4651" stroke="white" strokeWidth="1.76743" strokeLinecap="round" strokeLinejoin="round" />
-                <defs>
-                      <linearGradient id="paint0_linear_457_3079" x1="-0.115765" y1="22.4564" x2="34.7354" y2="-2.50015" gradientUnits="userSpaceOnUse">
+                <defs className="transition-all duration-300 ease-linear">
+                    <linearGradient id="paint0_linear_457_3079" x1="-0.115765" y1="22.4564" x2="34.7354" y2="-2.50015" gradientUnits="userSpaceOnUse">
                         <stop stopColor="white" stopOpacity="0" />
                         <stop offset="0.0001" stopColor="#8FE2EC" stopOpacity="0" />
                         <stop className="btn2 transition-all duration-300 ease-linear" offset="0.398471" stopColor="#00BCD4" stopOpacity="0" />
@@ -592,8 +592,8 @@ export const DisPrevBtn = () => {
 
 export const DisNextBtn = () => {
     return (
-        <div className="cursor-pointer btnhover">
-            <svg className="lg:w-[34px] lg:h-[34px]" width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className="cursor-pointer btnhover transition-all duration-300 ease-linear">
+            <svg className="lg:w-[34px] lg:h-[34px] transition-all duration-300 ease-linear rounded-[50%]" width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="34" height="34" rx="17" fill="url(#paint0_linear_457_3079)" fillOpacity="0.4" />
                 <rect x="0.441858" y="0.441858" width="33.1163" height="33.1163" rx="16.5581" stroke="url(#paint1_linear_457_3079)" strokeOpacity="0.7" strokeWidth="0.883716" />
                 <path d="M14.1888 12.4651L19.1888 17.4651L14.1888 22.4651" stroke="white" strokeWidth="1.76743" strokeLinecap="round" strokeLinejoin="round" />
