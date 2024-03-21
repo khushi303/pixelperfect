@@ -3,7 +3,7 @@ import { CommonBtn } from './CommonBtn'
 import blackcat from '../assets/images/png/headercat.png'
 import Image from 'next/image'
 import { FooterLogo } from './Icons'
-import { Tweeter, Camera, Instagram, Linkdin, Phoneicon, Mail } from './Icons'
+import { Tweeter, Facebook, Instagram, Linkdin, Phoneicon, Mail } from './Icons'
 import React from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
@@ -36,7 +36,7 @@ export default function Footer() {
                 </ul>
                 <div className='sm:mt-6 mt-4 flex lg:gap-6 md:gap-4 gap-3 items-center justify-center lg:mb-[21px] md:mb-[14px] mb-[38px]'>
                     <Tweeter />
-                    <Instagram />
+                    <Facebook />
                     <Instagram />
                     <Linkdin />
                 </div>

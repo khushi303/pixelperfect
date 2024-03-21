@@ -43,7 +43,7 @@ export default function Home() {
         <Footer />
         {/* <div className="ball" style={{ top: position.y, left: position.x }}></div> */}
         <div className="flex items-center justify-end z-10 fixed bottom-[2%] right-[3%]">
-          <a href="tel:9999999999" className={`bg-gradient-to-r animation1  right-0 from-[#00BCD4] to-[#3145EC] loading_header py-[12.04px]  sm:py-[16px] px-[32px] sm:text-[16px] text-[14px] sm:leading-[150%] leading-[115%] font-medium text-white rounded-[40px] loading_header flex gap-2 group items-center ${backToTop ? "" : "hidden"}`}>Book a call <CallSvg /></a>
+          <a href="tel:9999999999" className={`bg-gradient-to-r animation1  right-0 from-[#00BCD4] to-[#3145EC] py-[12.04px]  sm:py-[16px] px-[32px] sm:text-[16px] text-[14px] sm:leading-[150%] leading-[115%] font-medium text-white rounded-[40px] flex gap-2 group items-center ${backToTop ? "" : "hidden"}`}>Book a call <CallSvg /></a>
         </div>
 
       </main>

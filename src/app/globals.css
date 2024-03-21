@@ -65,7 +65,7 @@ body {
   top: calc(-1 * var(--radius));
   left: calc(-1 * var(--radius));
   background: conic-gradient(from var(--rotation), #4d4d4d33, #4d4d4d29, #3145EC, #00BCD4);
-  animation: rotate-border 4s ease-in-out infinite;
+  animation: rotate-border 4s ease-in-out infinite !important;
   z-index: -1;
 }
 
@@ -110,6 +110,27 @@ body {
   --rotation: 0deg;
   content: '';
   border-radius: 12px !important;
+  width: calc(100% + 2 * var(--radius));
+  height: calc(100% + 2 * var(--radius));
+  position: absolute;
+  top: calc(-1 * var(--radius));
+  left: calc(-1 * var(--radius));
+  background: conic-gradient(from var(--rotation), #4d4d4d33, #4d4d4d29, #3145EC, #00BCD4);
+  /* animation: rotate-border 4s linear infinite; */
+  z-index: -1;
+}
+
+.loading_discover12 {
+  --radius: 1px;
+  position: relative;
+  transition: all .3s linear;
+
+}
+
+.loading_discover12::after {
+  --rotation: 0deg;
+  content: '';
+  border-radius: 40px !important;
   width: calc(100% + 2 * var(--radius));
   height: calc(100% + 2 * var(--radius));
   position: absolute;
