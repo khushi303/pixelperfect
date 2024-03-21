@@ -17,22 +17,22 @@ export default function ShowCase() {
                 <p className='lg:text-[16px] sm:text-[14px] text-[12px] font-normal leading-[150%] text-white opacity-80 text-center mt-[12px] lg:mb-[60px] md:mb-[40px] mb-[32px]'>Sit convallis eget tellus non fringilla risus. Mauris nisi ultrices scelerisque pharetra. Et lorem amet eu. <span className='md:block'>pharetra. Et lorem amet eu.</span></p>
                 <div className="flex flex-wrap flex-row justify-between lg:gap-[25px] md:gap-4 gap-6">
                     <div className="md:w-[23%] w-[46%]">
-                        <div className="bg-[#00BCD40D] border border-solid lg:h-[139px] md:h-[92px] h-[80px] border-[#00BCD41A] lg:py-[16px] md:py-[11px] py-[8px] flex items-center justify-center">
+                        <div className="bg-[#00BCD40D] border border-solid lg:h-[139px] md:h-[92px] h-[80px] border-[#00BCD41A] lg:py-[16px] md:py-[11px] py-[8px] flex items-center justify-center cursor-pointer">
                             <Image src={Showimg1} alt="Showimg1" width={82} height={61} className="lg:w-[141px] lg:h-[105px] sm:w-[93px] am:h-[69px]" />
                         </div>
                     </div>
                     <div className="md:w-[23%] w-[46%]">
-                        <div className="bg-[#00BCD40D] border border-solid  border-[#00BCD41A] lg:h-[139px] md:h-[92px] h-[80px] lg:py-[16px] md:py-[11px] py-[8px] flex items-center justify-center">
+                        <div className="bg-[#00BCD40D] border border-solid  border-[#00BCD41A] lg:h-[139px] md:h-[92px] h-[80px] lg:py-[16px] md:py-[11px] py-[8px] flex items-center justify-center cursor-pointer">
                             <Image src={Showimg2} alt="Showimg2" width={51} height={68} className="lg:w-[87px] lg:h-[117px] sm:w-[58px] am:h-[77px]" />
                         </div>
                     </div>
                     <div className="md:w-[23%] w-[46%]">
-                        <div className="bg-[#00BCD40D] border border-solid  border-[#00BCD41A] lg:h-[139px] md:h-[92px] h-[80px] lg:py-[16px] md:py-[11px] py-[8px] flex items-center justify-center">
+                        <div className="bg-[#00BCD40D] border border-solid  border-[#00BCD41A] lg:h-[139px] md:h-[92px] h-[80px] lg:py-[16px] md:py-[11px] py-[8px] flex items-center justify-center cursor-pointer">
                             <Image src={Showimg3} alt="Showimg3" width={99} height={49} className="lg:w-[169px] lg:h-[84px] sm:w-[112px] am:h-[56px]" />
                         </div>
                     </div>
                     <div className="md:w-[23%] w-[46%]">
-                        <div className="bg-[#00BCD40D] border border-solid  border-[#00BCD41A] lg:h-[139px] md:h-[92px] h-[80px] lg:py-[16px] md:py-[11px] py-[8px] flex items-center justify-center">
+                        <div className="bg-[#00BCD40D] border border-solid  border-[#00BCD41A] lg:h-[139px] md:h-[92px] h-[80px] lg:py-[16px] md:py-[11px] py-[8px] flex items-center justify-center cursor-pointer">
                             <Image src={Showimg4} alt="Showimg4" width={148} height={39} className="lg:w-[254px] lg:h-[66px] sm:w-[168px] am:h-[44px]" />
                         </div>
                     </div>
