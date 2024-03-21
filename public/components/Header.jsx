@@ -11,7 +11,7 @@ import { Navicon } from './Icons'
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Navbar from './NavTabs';
-// import ParticlesP5 from './Particlejs';
+import ParticlesP5 from './Particlejs';
 
 export default function Header(props) {
     const [nav, setNav] = useState(true)
@@ -30,7 +30,7 @@ export default function Header(props) {
         <div className='sm:mb-0 mb-7 '>
             <div className=' bg-cover bg-center bg-no-repeat xl:h-[758px] relative lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col ms:pb-[85px] pb-[66px]'>
                 <div className='bg-gradient-to-b from-[#060606] to-[rgba(0,0,0,0)] relative z-10 overflow-hidden'>
-                    {/* <div className='absolute top-0 left-0 right-0 bottom-0 z-[1]'><ParticlesP5 /></div> */}
+                    <div className='absolute top-0 left-0 right-0 bottom-0 z-[1]'><ParticlesP5 /></div>
                     <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
                         <div className="flex items-center justify-between py-[26px]">
                             <a href="">
