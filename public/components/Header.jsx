@@ -32,7 +32,7 @@ export default function Header(props) {
     return (
         <div className='sm:mb-0 mb-7 '>
             <div className='bg-bgheader bg-cover bg-center bg-no-repeat xl:h-[758px] relative lg:h-[650px] md:h-[556px] sm:h-[500px] flex flex-col ms:pb-[85px] pb-[66px]'>
-                <div className='bg-gradient-to-b from-[#060606] to-[rgba(0,0,0,0)] relative z-10 overflow-hidden'>
+                <div className='bg-gradient-to-b from-[#060606] to-[rgba(0,0,0,0)] relative overflow-hidden'>
                     {/* <div className='absolute top-0 left-0 right-0 bottom-0 z-[1]'><ParticlesP5 /></div> */}
                     <div className="container mx-auto xl:max-w-[1164px] lg:px-3 md:px-10 px-6">
                         <div className="flex items-center justify-between py-[26px]">
@@ -40,7 +40,7 @@ export default function Header(props) {
                                 {/* <Image src={logo} alt='logo'  /> */}
                                 <Logo />
                             </Link>
-                            <ul className={`${nav ? "left-[-100%]" : "left-0"} flex max-md:fixed max-md:top-0 max-md:h-full z-40 max-md:w-full max-md:z-20 max-md:transition-all max-md:duration-300 max-md:ease-linear max-md:bg-black max-md:min-h-screen max-md:flex-col gap-6 items-center justify-center`}>
+                            <ul className={`${nav ? "left-[-100%]" : "left-0"} flex max-md:fixed max-md:top-0 max-md:h-full z-50 max-md:w-full max-md:transition-all max-md:duration-300 max-md:ease-linear max-md:bg-black max-md:min-h-screen max-md:flex-col gap-6 items-center justify-center`}>
                                 <Navbar />
                                 <li className='max-md:block hidden blur_box transition-all duration-300 ease-linear active:shadow-[0_2px_20px_0_#00BCD4] '>
                                     <div className='loading_header relative bg-[#060606] rounded-[40px] '>
@@ -53,7 +53,7 @@ export default function Header(props) {
                                     <button className='px-[32px] py-[16px]  rounded-[40px] bg-[#00000003] text-white shadow-[5px_-5px_20px_0px_#1291DD52] '>Get started</button>
                                 </div>
                             </div>
-                            <div onClick={() => setNav(!nav)} className='md:hidden sm:w-[30px] sm:h-[30px] w-[24px] h-[24px] relative z-20 flex justify-center flex-col cursor-pointer'>
+                            <div onClick={() => setNav(!nav)} className='md:hidden sm:w-[30px] sm:h-[30px] w-[24px] h-[24px] relative z-[70] flex justify-center flex-col cursor-pointer'>
                                 {/*  */}
                                 {nav ? (<Navicon />) : (
                                     <>

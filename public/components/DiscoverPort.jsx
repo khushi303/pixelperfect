@@ -99,6 +99,10 @@ export default function Discover() {
             img2: discardimg8,
         },
     ]
+    // if (Document.body.clientwidth<=768) {
+        
+    // }
+    
 
     return (
         <>
