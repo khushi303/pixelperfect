@@ -121,25 +121,12 @@ body {
 }
 
 .loading_discover12 {
-  --radius: 1px;
+  padding: 1px;
   position: relative;
   transition: all .3s linear;
-
-}
-
-.loading_discover12::after {
-  --rotation: 0deg;
-  content: '';
-  border-radius: 40px !important;
-  width: calc(100% + 2 * var(--radius));
-  height: calc(100% + 2 * var(--radius));
-  position: absolute;
-  top: calc(-1 * var(--radius));
-  left: calc(-1 * var(--radius));
   background: conic-gradient(from var(--rotation), #4d4d4d33, #4d4d4d29, #3145EC, #00BCD4);
-  /* animation: rotate-border 4s linear infinite; */
-  z-index: -1;
 }
+
 
 .loading_header {
   --radius: 2px;
@@ -161,14 +148,24 @@ body {
   z-index: -1;
 }
 
-.ball {
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  border-radius: 50%;
+.footerbtn {
+  --radius: 1px;
+  position: relative;
+  transition: all .3s linear;
+}
+
+.footerbtn::after {
+  --rotation: 0deg;
+  content: '';
+  border-radius: 40px !important;
+  width: calc(100% + 2 * var(--radius));
+  height: calc(100% + 2 * var(--radius));
   position: absolute;
-  transition: top 0.1s, left 0.1s;
-  /* Optional: Add smooth transition */
+  top: calc(-1 * var(--radius));
+  left: calc(-1 * var(--radius));
+  background: conic-gradient(from var(--rotation), #4d4d4d33, #4d4d4d29, #3145EC, #00BCD4);
+  animation: rotate-border 4s linear infinite;
+  z-index: 1;
 }
 
 .blur_box_border {
@@ -194,7 +191,6 @@ body {
   border-radius: 30px;
 }
 
-/* .blur_bo */
 .loading_header1 {
   --radius: 1px;
   position: relative;
@@ -270,8 +266,6 @@ body {
 .svghover:hover div svg stop {
   stop-color: #00BCD4;
 }
-
-/* 3145EC */
 
 .svghover:hover div svg stop.svgcolor {
   stop-color: #3145EC;

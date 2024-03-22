@@ -18,7 +18,9 @@ export default function Footer() {
                         <div className='lg:w-[70%] md:w-[60%] w-[full]'>
                             <h2 className="ff_mazzardsemibold lg:text-[52px] sm:text-[32px] text-[20px] font-semibold text-white leading-[110%] mb-3">Let's Start a Project Together</h2>
                             <p className='ff_mazzardregular lg:text-[16px] sm:text-[14px] text-[12px] font-normal leading-[150%] text-white opacity-80 mt-[12px] mb-[32px] xl:max-w-[736px] max-w-[600px]'>Let's transform your digital aspirations into a tangible success story. Submit the form, and we'll be in touch to discuss the next steps in bringing your project to fruition.</p>
-                            <CommonBtn btnname="Start a Project" />
+                            <div className='inline-flex loading_header footerbtn'>
+                                <button className="bg-gradient-to-r from-[#00BCD4] to-[#3145EC]  py-[16px] px-[32px] sm:text-[16px] text-[14px] font-medium text-white rounded-[40px] sm:leading-[150%] leading-[115%]  transition-all duration-300 ease-linear hover:shadow-[0_2px_20px_0_#0086d4] relative z-[2]">Start a Project</button>
+                            </div>
                         </div>
                         <div className='md:absolute right-[2%] bottom-[8%] max-md:mt-[27px]'>
                             <div className='relative'>
@@ -81,8 +83,6 @@ export default function Footer() {
         </div>
     )
 }
-
-
 const Navbars = () => {
     const currentPath = usePathname();
     return (
